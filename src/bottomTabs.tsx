@@ -3,7 +3,7 @@ import { FontAwesome5 as FA5 } from '@expo/vector-icons'
 import { createBottomTabNavigator } from '@react-navigation/bottom-tabs'
 import { StatusBar } from 'expo-status-bar'
 
-import Home from './screens/home'
+import Inicio from './screens/home'
 import FoodMenu from './screens/food-menu'
 import Barracks from './screens/barracks'
 import Tickets from './screens/tickets'
@@ -26,8 +26,8 @@ export default function BottomRoutes() {
         }}
       >
         <Tab.Screen
-          name="Home"
-          component={Home}
+          name="Inicio"
+          component={Inicio}
           options={{
             tabBarStyle: { display: 'none' },
             tabBarIcon: () => <FA5 name="home" color="#484848" size={28} />
@@ -37,7 +37,7 @@ export default function BottomRoutes() {
           name="Mapa"
           component={Map}
           options={{
-            tabBarButton: () => null,
+            tabBarButton: () => null
           }}
         />
         <Tab.Screen
