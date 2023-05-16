@@ -184,6 +184,7 @@ export default function VoteBarrackModal({
         let userId: string
 
         const remodelResponse = Object.keys(response).map((key, index) => {
+          console.log(remodelResponse)
           /*   
             CONVERTE RETORNO DO FIREBASE QUE VEM
             COMO OBJETO DE OBJETOS PARA ARRAY DE
