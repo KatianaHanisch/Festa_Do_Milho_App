@@ -1,0 +1,33 @@
+{
+  "expo": {
+    "name": "Festa do Milho",
+    "slug": "festa-do-milho",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "icon": "./assets/icon.png",
+    "splash": {
+      "image": "./assets/splash.png",
+      "resizeMode": "contain",
+      "backgroundColor": "#EFF1ED"
+    },
+    "updates": {
+      "fallbackToCacheTimeout": 0
+    },
+    "assetBundlePatterns": ["**/*"],
+    "ios": {
+      "supportsTablet": true
+    },
+    "android": {
+      "adaptiveIcon": {
+        "foregroundImage": "./assets/adaptive-icon.png",
+        "backgroundColor": "#EFF1ED"
+      },
+      "package": "com.fasipe.festadomilho",
+      "versionCode": 2,
+      "permissions": []
+    },
+    "web": {
+      "favicon": "./assets/favicon.png"
+    }
+  }
+}
