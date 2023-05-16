@@ -69,7 +69,7 @@ export default function VoteBarrackModal({
   const [name, setName] = React.useState('')
   const [phone, setPhone] = React.useState('')
   const [isStudent, setIsStudent] = React.useState(false)
-  const [buildId, setBuildId] = React.useState(null)
+  const [buildId, setBuildId] = React.useState('')
 
   const [formInvalid, setFormInvalid] = React.useState(false)
   const [phoneIncorrect, setPhoneIncorrect] = React.useState(false)
@@ -90,6 +90,8 @@ export default function VoteBarrackModal({
         setUserAlreadyHaveVote(true)
       }
     }
+
+    getBuildId()
 
     verifyIfUserAlreadyVote()
   }, [])
@@ -144,8 +146,6 @@ export default function VoteBarrackModal({
   }
 
   const handleSubmit = () => {
-    getBuildId()
-
     setFormInvalid(false)
 
     Keyboard.dismiss()
@@ -167,9 +167,9 @@ export default function VoteBarrackModal({
 
     setDisabledButton(true)
 
-    if (buildId == null) {
-      getBuildId()
-    }
+    // if (buildId == null) {
+    //   getBuildId()
+    // }
 
     fetch(
       `https://festadomilho-d2984-default-rtdb.firebaseio.com/registros.json?auth=bPJEhIfXgv1iJxaOwQHwQuWz0ct7VDTR7zEFR07w&orderBy=%22fone%22&equalTo=%22${phone}%22`,
@@ -184,7 +184,6 @@ export default function VoteBarrackModal({
         let userId: string
 
         const remodelResponse = Object.keys(response).map((key, index) => {
-          console.log(remodelResponse)
           /*   
             CONVERTE RETORNO DO FIREBASE QUE VEM
             COMO OBJETO DE OBJETOS PARA ARRAY DE
@@ -199,8 +198,7 @@ export default function VoteBarrackModal({
         })
 
         if (remodelResponse.length) {
-          // console.log(remodelResponse)
-          // USUÁRIO JÁ VOTOU UMA VEZ (VERIFICADO ATRAVÉS DO NÚMERO DE TELEFONE)
+          // console.log(remodelResponse[0]) // USUÁRIO JÁ VOTOU UMA VEZ (VERIFICADO ATRAVÉS DO NÚMERO DE TELEFONE)
 
           await AsyncStorage.setItem(
             '@VOTE_PAYLOAD',
@@ -226,6 +224,8 @@ export default function VoteBarrackModal({
   }
 
   const registerNewVote = async () => {
+    // console.log(buildId)
+
     fetch(
       `https://festadomilho-d2984-default-rtdb.firebaseio.com/votacao/${barrack.id}.json?auth=bPJEhIfXgv1iJxaOwQHwQuWz0ct7VDTR7zEFR07w`,
       {
@@ -265,7 +265,6 @@ export default function VoteBarrackModal({
     )
       .then((response) => response.json())
       .then(async (response) => {
-        // console.log(response)
         await AsyncStorage.setItem(
           '@VOTE_PAYLOAD',
           JSON.stringify({
@@ -283,6 +282,8 @@ export default function VoteBarrackModal({
         console.log(err)
       })
   }
+
+  console.log(buildId)
 
   return (
     <Container>
