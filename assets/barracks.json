@@ -1173,46 +1173,78 @@
       "cardapio": {
         "comidas": [
           {
-            "nome": "Menos é mais ",
-            "valor": 28
+            "nome": "BATATA FRITA COM BACON E CHEDDAR",
+            "valor": 25
           },
           {
-            "nome": "Barrinha Energetica",
-            "valor": 10
+            "nome": "PÃO COM LINGUIÇA",
+            "valor": 17
           },
           {
-            "nome": "Tortilhas Recheadas com pulled pork",
+            "nome": "TIRAS DE FRANGO FRITO",
             "valor": 20
+          },
+          {
+            "nome": "COMBO PÃO COM LINGUIÇA + 1 CHOPP",
+            "valor": 22
+          },
+          {
+            "nome": "COMBO PÃO COM LINGUIÇA + 1 REFRIGERANTE LATA",
+            "valor": 20
+          },
+          {
+            "nome": "COMBO 2 CHOPPS + 1 TIRA DE FRANGO FRITO",
+            "valor": 30
+          },
+          {
+            "nome": "PIPOCA GOURMET",
+            "valor": 8
+          },
+          {
+            "nome": "PIPOCA SALGADA",
+            "valor": 2
           }
         ],
         "bebidas": [
           {
             "nome": "Agua sem gás",
-            "valor": 4
+            "valor": 5
           },
           {
             "nome": "Agua com gás",
-            "valor": 4
+            "valor": 5
           },
           {
             "nome": "Refrigerante lata",
-            "valor": 4
-          },
-          {
-            "nome": "Chopp",
             "valor": 5
           },
           {
-            "nome": "Control + Alt + del",
+            "nome": "CERVEJA LATA",
+            "valor": 5
+          },
+          {
+            "nome": "CHOOPP SEVERA 350ML",
+            "valor": 7
+          },
+          {
+            "nome": "COMBO DE CHOOPP SEVERA (3 COPOS)",
+            "valor": 18
+          },
+          {
+            "nome": "CAIPIRINHA DE LIMÃO",
             "valor": 10
           },
           {
-            "nome": "Copo de mé",
-            "valor": 5
+            "nome": "CAIPIRINHA DE MORANGO",
+            "valor": 15
           },
           {
-            "nome": "Refil Mé (Com o Copo) ",
-            "valor": 3
+            "nome": "CAIPIROSKA DE LIMÃO",
+            "valor": 15
+          },
+          {
+            "nome": "CAIPIROSKA DE MORANGO",
+            "valor": 17
           }
         ]
       }
@@ -1869,8 +1901,14 @@
     {
       "id_barraca": 17,
       "barraca": "MILHOGLOBULINA",
-      "descricao": " TICKET FASIPE ME FALIU (2 copos de vodka)",
+      "descricao": "TICKET FASIPE ME FALIU (2 copos de vodka)",
       "valor": 15
+    },
+    {
+      "id_barraca": 18,
+      "barraca": "MILHOSOFT",
+      "descricao": "1 CHOPP + PÃO COM LINGUIÇA",
+      "valor": 20
     },
 
     {
@@ -2108,6 +2146,9 @@
         },
         {
           "id_barraca": 17
+        },
+        {
+          "id_barraca": 18
         },
         {
           "id_barraca": 19

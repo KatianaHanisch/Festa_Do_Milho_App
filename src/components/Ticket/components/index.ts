@@ -32,7 +32,7 @@ export const TicketBody = styled.View`
   border-right-width: 1px;
   border-right-color: #dfdfdf;
   border-style: dashed;
-  padding: 15px;
+  padding: 7px 15px;
 `
 export const ContainerBarrack = styled.View`
   flex: 1;
