@@ -283,8 +283,6 @@ export default function VoteBarrackModal({
       })
   }
 
-  console.log(buildId)
-
   return (
     <Container>
       <StatusBar style="dark" backgroundColor="#EFF1ED" />
