@@ -18,9 +18,9 @@ export const Container = styled.ScrollView`
 
 export const Image = styled.Image`
   width: 100%;
-  max-height: 300px;
+  max-height: 220px;
   /* height: 200px; */
-  margin: 8px auto;
+  margin-top: 45px;
   z-index: -1;
   resize-mode: contain;
 `
@@ -38,6 +38,7 @@ export const Title = styled.Text`
   font-family: Archivo_700Bold_Italic;
   font-size: 32px;
   text-align: center;
+  margin-top: 15px;
   margin-bottom: 25px;
   color: #393d3f;
   text-transform: capitalize;

@@ -3,7 +3,6 @@ import styled from 'styled-components/native'
 export const Button = styled.TouchableOpacity`
   width: 100px;
   height: 50px;
-  background-color: red;
 `
 export const Container = styled.View`
   padding: 16px 12px;
@@ -17,7 +16,18 @@ export const Container = styled.View`
 
   width: 100%;
 `
+export const ImageBarraca = styled.Image`
+  height: 100%;
+  width: 100%;
+`
 
+export const ContainerImage = styled.View`
+  width: 75px;
+  height: 75px;
+  background-color: #f7fff7;
+  border-radius: 100px;
+  margin-right: 12px;
+`
 export const Row = styled.View`
   display: flex;
   flex-direction: row;
@@ -48,12 +58,16 @@ export const Subtitle = styled.Text`
 `
 
 export const Image = styled.Image`
-  width: 69px;
+  height: 100%;
+  width: 100%;
+  border-radius: 100px;
+
+  /* width: 69px;
   height: 69px;
 
   margin-right: 16px;
 
-  border-radius: 100px;
+  border-radius: 100px; */
 `
 
 export const Stars = styled.View`

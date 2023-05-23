@@ -1,5 +1,5 @@
 import React, { useState, useEffect } from 'react'
-import { BackHandler, Alert } from 'react-native'
+import { BackHandler } from 'react-native'
 import { LinearGradient } from 'expo-linear-gradient'
 import { TouchableHighlight } from 'react-native-gesture-handler'
 
@@ -16,7 +16,9 @@ import {
   Stars,
   Quantity,
   BarrackDetails,
-  ContainerCardBarrack
+  ContainerCardBarrack,
+  ContainerImage,
+  ImageBarraca
 } from './components'
 
 import ModalBarrack from './components/modal-barrack'
@@ -232,7 +234,7 @@ export default function Barrack({ navigation, barrack }: BarrackProps) {
         >
           <Container>
             <Row>
-              {image}
+              <ContainerImage>{image}</ContainerImage>
               <Details>
                 <Title>{barrack.nome}</Title>
                 <Subtitle>{barrack.curso}</Subtitle>
@@ -259,7 +261,6 @@ export default function Barrack({ navigation, barrack }: BarrackProps) {
                 setBarrackDetailsOpen={setBarrackDetailsOpen}
               />
             </BarrackDetails>
-            {/* <Button onPress={() => navigation.goBack()}></Button> */}
           </Container>
         </TouchableHighlight>
       </LinearGradient>

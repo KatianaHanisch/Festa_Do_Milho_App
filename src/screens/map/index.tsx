@@ -1,6 +1,6 @@
 import * as React from 'react'
 
-import Header from '../../components/Header'
+import { BackHandler } from 'react-native'
 
 import { Container } from './components'
 
@@ -8,18 +8,29 @@ import { StatusBar } from 'expo-status-bar'
 import { Animated, Dimensions, Image, View } from 'react-native'
 
 import { ReactNativeZoomableView } from '@openspacelabs/react-native-zoomable-view'
-import { PinchGestureHandler } from 'react-native-gesture-handler'
-
-const { width } = Dimensions.get("window")
-const SIZE = width
 
 export default function Map({ route, navigation }) {
+  const backAction = () => {
+    navigation.navigate('Home')
+    return true
+  }
+
+  BackHandler.addEventListener('hardwareBackPress', backAction)
+
   return (
     <Container>
-      <StatusBar style="dark" translucent={false} />
+      <StatusBar style="dark" backgroundColor="#EFF1ED" />
 
-      <ReactNativeZoomableView maxZoom={1.5} minZoom={1} zoomStep={0.5} initialZoom={1}>
-        <Animated.Image style={{ width: SIZE, height: SIZE, resizeMode: "cover" }} source={require('../../../assets/mapa.png')} />
+      <ReactNativeZoomableView
+        maxZoom={1.5}
+        minZoom={1}
+        zoomStep={0.5}
+        initialZoom={1}
+      >
+        <Animated.Image
+          style={{ width: '100%', height: '85%' }}
+          source={require('../../../assets/barracas.jpeg')}
+        />
       </ReactNativeZoomableView>
     </Container>
   )

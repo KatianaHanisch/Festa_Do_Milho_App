@@ -15,13 +15,21 @@ export default function Home({ navigation }) {
       <Image source={require('../../../assets/logo.png')} />
 
       <Menu>
-        <TouchableHighlight
+        {/* <TouchableHighlight
           underlayColor="none"
           onPress={() =>
             Linking.openURL(
               'https://drive.google.com/file/d/1TPoTkAyViKmGs4TrsbjEoIT-uerIDyqr/view?usp=sharing'
             )
           }
+        >
+          <MenuButton>
+            <MenuButtonText>Mapa</MenuButtonText>
+          </MenuButton>
+        </TouchableHighlight> */}
+        <TouchableHighlight
+          underlayColor="none"
+          onPress={() => navigation.navigate('Map')}
         >
           <MenuButton>
             <MenuButtonText>Mapa</MenuButtonText>
