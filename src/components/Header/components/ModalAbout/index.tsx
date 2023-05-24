@@ -47,30 +47,6 @@ export default function About({ setBarrackDetailsOpen }: AboutScreenProps) {
 
       <Line />
 
-      <Button
-        style={{ marginBottom: 10 }}
-        onPress={() =>
-          Linking.openURL(
-            'https://docs.google.com/forms/d/e/1FAIpQLScsprW5xJhNW0ezGm2ka9t8t9UZuuXPnY2X_nLqiBdvHxVlTw/viewform?usp=sf_link'
-          )
-        }
-      >
-        <ButtonText>Dê sua opinião sobre a nossa festa</ButtonText>
-      </Button>
-
-      {/* <Button
-        style={{ marginBottom: 15 }}
-        onPress={() => Linking.openURL('https://www.nivel.com.br/fasipe079')}
-      >
-        <ButtonText>GANHE CASHBACK</ButtonText>
-      </Button> */}
-
-      <TextCenter style={{ marginBottom: 15 }}>
-        você será redirecionado para web ao clicar no botão acima
-      </TextCenter>
-
-      <Line />
-
       <DevelopedBy>
         Aplicativo desenvolvido pelo curso de Análise e Desenvolvimento de
         Sistemas da UNIFASIPE

@@ -21,7 +21,7 @@ import {
   AfterVoteInformation
 } from './components'
 import { FontAwesome5 as FA5 } from '@expo/vector-icons'
-import { Keyboard, Switch, Platform } from 'react-native'
+import { Keyboard, Switch } from 'react-native'
 import base64 from 'react-native-base64'
 import AsyncStorage from '@react-native-async-storage/async-storage'
 
@@ -133,16 +133,8 @@ export default function VoteBarrackModal({
   }
 
   function getBuildId() {
-    if (Platform.OS === 'ios') {
-      const id = Device.osBuildId
-      setBuildId(id)
-    } else if (Platform.OS === 'android') {
-      const id = Device.osInternalBuildId
-      setBuildId(id)
-    } else {
-      const id = Device.osBuildId
-      setBuildId(id)
-    }
+    const id = Device.osBuildId
+    setBuildId(id)
   }
 
   const handleSubmit = () => {
@@ -172,7 +164,7 @@ export default function VoteBarrackModal({
     // }
 
     fetch(
-      `https://festadomilho-d2984-default-rtdb.firebaseio.com/registros.json?auth=bPJEhIfXgv1iJxaOwQHwQuWz0ct7VDTR7zEFR07w&orderBy=%22fone%22&equalTo=%22${phone}%22`,
+      `https://festadomilho-d2984-default-rtdb.firebaseio.com/registros.json?auth=bPJEhIfXgv1iJxaOwQHwQuWz0ct7VDTR7zEFR07w&orderBy=%22buildId%22&equalTo=%22${buildId}%22`,
       {
         headers: {
           'Content-Type': 'application/json'

@@ -19,10 +19,8 @@ export const Container = styled.ScrollView`
 export const Image = styled.Image`
   width: 100%;
   max-height: 220px;
-  /* height: 200px; */
   margin-top: 45px;
   z-index: -1;
-  resize-mode: contain;
 `
 
 export const CloseIcon = styled.TouchableHighlight`

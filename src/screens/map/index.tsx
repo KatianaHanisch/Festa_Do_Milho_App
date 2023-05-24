@@ -28,7 +28,7 @@ export default function Map({ route, navigation }) {
         initialZoom={1}
       >
         <Animated.Image
-          style={{ width: '100%', height: '85%' }}
+          style={{ width: '100%', height: '80%' }}
           source={require('../../../assets/barracas.jpeg')}
         />
       </ReactNativeZoomableView>
