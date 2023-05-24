@@ -15,19 +15,25 @@
     },
     "assetBundlePatterns": ["**/*"],
     "ios": {
-      "supportsTablet": true
+      "supportsTablet": true,
+      "bundleIdentifier": "com.fasipe.festadomilho16"
     },
     "android": {
       "adaptiveIcon": {
         "foregroundImage": "./assets/adaptive-icon.png",
         "backgroundColor": "#EFF1ED"
       },
-      "package": "com.fasipe.festadomilho",
+      "package": "com.fasipe.festadomilho16",
       "versionCode": 2,
       "permissions": []
     },
     "web": {
       "favicon": "./assets/favicon.png"
+    },
+    "extra": {
+      "eas": {
+        "projectId": "36d1d901-f7eb-47f7-92c4-3480309520d1"
+      }
     }
   }
 }

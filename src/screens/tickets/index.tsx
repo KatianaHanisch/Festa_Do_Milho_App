@@ -24,10 +24,6 @@ import { ticket as tickets } from '../../../assets/barracks.json'
 import Ticket from '../../components/Ticket'
 import { StatusBar } from 'expo-status-bar'
 
-import * as SecureStore from 'expo-secure-store'
-import { v4 as uuidv4 } from 'uuid'
-import { getRandomBytes } from 'react-native-get-random-values'
-
 interface TicketsScreenProps {
   route: any
   navigation: any
@@ -58,28 +54,6 @@ export default function Tickets({ route, navigation }: TicketsScreenProps) {
   navigation.addListener('focus', () => {
     verifyIfUserAlreadyVote()
   })
-
-  // const [deviceUniqueId, setDeviceUniqueId] = React.useState('')
-
-  // React.useEffect(() => {
-  //   // Verifica se já existe um UUID armazenado no dispositivo
-  //   SecureStore.getItemAsync('deviceUniqueId')
-  //     .then((storedUniqueId) => {
-  //       if (storedUniqueId) {
-  //         setDeviceUniqueId(storedUniqueId)
-  //       } else {
-  //         // Gera um novo UUID
-  //         const newUniqueId = uuidv4({ random: getRandomBytes })
-  //         // Armazena o UUID no dispositivo
-  //         SecureStore.setItemAsync('deviceUniqueId', newUniqueId)
-  //           .then(() => setDeviceUniqueId(newUniqueId))
-  //           .catch((error) => console.log('Erro ao armazenar o UUID:', error))
-  //       }
-  //     })
-  //     .catch((error) => console.log('Erro ao obter o UUID:', error))
-  // }, [])
-
-  // console.log(deviceUniqueId)
 
   const verifyIfUserAlreadyVote = async (): Promise<void> => {
     const payload = await AsyncStorage.getItem('@VOTE_PAYLOAD')
