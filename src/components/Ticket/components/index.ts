@@ -97,7 +97,7 @@ export const TicketDetails = styled.Modal`
   border-radius: 20px;
   padding: 35px;
   align-items: center;
-  shadow-color: #000;
-  shadow-radius: 4px;
-  elevation: 5;
+  /* shadow-color: #000; */
+  /* shadow-radius: 4px; */
+  /* elevation: 5; */
 `
