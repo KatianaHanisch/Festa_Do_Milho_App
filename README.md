@@ -4,4 +4,4 @@
 
 Desenvolvido pelo acadêmico [Luan Hübner](https://github.com/luan-hubner)
 
-Atualizado pela acadêmica [Katiana H. Hanisch](https://github.com/KatianaHanisch)
+Aplicatico atulizado em 2023 pela acadêmica [Katiana H. Hanisch](https://github.com/KatianaHanisch)
