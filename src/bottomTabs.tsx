@@ -25,7 +25,7 @@ export default function BottomRoutes() {
         screenOptions={{
           headerShown: false,
           tabBarShowLabel: false,
-          tabBarActiveTintColor: '#006400',
+          tabBarActiveTintColor: '#005204',
           tabBarInactiveTintColor: '#484848',
           tabBarStyle: {
             borderTopWidth: 0

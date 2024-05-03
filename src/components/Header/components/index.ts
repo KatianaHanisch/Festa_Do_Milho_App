@@ -18,7 +18,7 @@ export const Title = styled.Text`
   font-size: 24px;
   text-align: left;
 
-  color: #495057;
+  color: #313233;
 `
 export const BarrackDetails = styled.Modal`
   margin: 20px;

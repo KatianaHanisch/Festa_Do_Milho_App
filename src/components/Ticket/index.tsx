@@ -50,7 +50,7 @@ export default function Ticket({
 
   return (
     <>
-      <StatusBar style="dark" backgroundColor="#EFF1ED" translucent={false} />
+      <StatusBar style="dark" backgroundColor="#e5ebce" translucent={false} />
       <TouchableHighlight
         key={ticket.descricao}
         underlayColor="none"
@@ -61,7 +61,7 @@ export default function Ticket({
         <Container>
           <Tck>
             <LinearGradient
-              colors={['#008E1F', '#3F6B3E']}
+              colors={['#005204', '#214320']}
               start={{ x: 0, y: 1 }}
               end={{ x: 1, y: 0 }}
               locations={[0.1, 0.9]}

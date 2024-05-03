@@ -22,7 +22,7 @@ export default function Header({ title }: HeaderProps) {
         accessibilityRole="link"
         onPress={() => setBarrackDetailsOpen(true)}
       >
-        <Ionicons name="information-circle-outline" size={35} color="#495057" />
+        <Ionicons name="information-circle-outline" size={35} color="#313233" />
         <BarrackDetails
           animationType="slide"
           transparent={false}

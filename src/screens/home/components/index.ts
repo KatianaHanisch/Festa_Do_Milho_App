@@ -9,14 +9,13 @@ export const Container = styled.View`
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  background-color: #eff1ed;
+  background-color: #e5ebce;
 `
 
 export const Image = styled.Image`
-  width: 281px;
-  height: 140px;
-
-  margin-bottom: 40px;
+  width: 300px;
+  height: 200px;
+  margin-bottom: 10px;
 `
 
 export const Menu = styled.View`
@@ -27,7 +26,7 @@ export const Menu = styled.View`
 `
 
 export const MenuButton = styled.View<MenuBottomProps>`
-  background-color: #0b890b;
+  background-color: #005204;
   color: #f7fff7;
   border-radius: 5px;
   width: 300px;

@@ -42,7 +42,7 @@ export const CircularBorderTop = styled.View`
   height: 25px;
   width: 25px;
   border-radius: 50px;
-  background-color: #eff1ed;
+  background-color: #e5ebce;
   margin-left: -13px;
   margin-top: -13px;
 `
@@ -50,7 +50,7 @@ export const CircularBorderButton = styled.View`
   height: 25px;
   width: 25px;
   border-radius: 50px;
-  background-color: #eff1ed;
+  background-color: #e5ebce;
   margin-bottom: -13px;
   margin-left: -13px;
 `

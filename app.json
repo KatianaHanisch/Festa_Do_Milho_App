@@ -8,7 +8,7 @@
     "splash": {
       "image": "./assets/splash.png",
       "resizeMode": "contain",
-      "backgroundColor": "#EFF1ED"
+      "backgroundColor": "#e5ebce"
     },
     "updates": {
       "fallbackToCacheTimeout": 0
@@ -21,7 +21,7 @@
     "android": {
       "adaptiveIcon": {
         "foregroundImage": "./assets/adaptive-icon.png",
-        "backgroundColor": "#EFF1ED"
+        "backgroundColor": "#e5ebce"
       },
       "package": "com.fasipe.festadomilho16",
       "versionCode": 3,
@@ -34,6 +34,7 @@
       "eas": {
         "projectId": "36d1d901-f7eb-47f7-92c4-3480309520d1"
       }
-    }
+    },
+    "plugins": ["expo-font", "expo-secure-store"]
   }
 }

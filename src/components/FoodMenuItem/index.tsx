@@ -1,7 +1,7 @@
 import { TouchableHighlight } from 'react-native-gesture-handler'
 import { LinearGradient } from 'expo-linear-gradient'
 
-import { FontAwesome5 as FA5 } from '@expo/vector-icons'
+import { Entypo } from '@expo/vector-icons'
 
 import { Container, Details, Title, Subtitle } from './components'
 
@@ -39,7 +39,7 @@ export default function FoodMenuItem({ food, navigation }: FoodMenuItemProps) {
       }
     >
       <LinearGradient
-        colors={['#008E1F', '#3F6B3E']}
+        colors={['#005204', '#214320']}
         start={{ x: 0, y: 1 }}
         end={{ x: 1, y: 0 }}
         locations={[0.1, 0.9]}
@@ -59,7 +59,7 @@ export default function FoodMenuItem({ food, navigation }: FoodMenuItemProps) {
             </Subtitle>
           </Details>
 
-          <FA5 name="chevron-right" color="#d9d9d9" size={28} />
+          <Entypo name="chevron-thin-right" color="#d9d9d9" size={20} />
         </Container>
       </LinearGradient>
     </TouchableHighlight>

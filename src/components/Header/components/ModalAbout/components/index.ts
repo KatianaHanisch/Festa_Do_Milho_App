@@ -1,34 +1,40 @@
 import styled from 'styled-components/native'
 
-export const Container = styled.ScrollView`
+export const Container = styled.View`
   flex: 1;
-  height: 100%;
-  padding: 10px 20px 50px 20px;
   background-color: #eff1ed;
+  align-items: center;
 `
 
 export const CloseIcon = styled.TouchableHighlight`
   position: absolute;
   right: 10px;
+  top: 15px;
   width: 50px;
+
   align-items: flex-end;
+`
+export const ContainerInterno = styled.View`
+  width: 95%;
+  height: 100%;
+  padding-top: 10px;
 `
 
 export const TextInitial = styled.Text`
   font-family: 'Archivo_400Regular';
-  font-size: 21px;
+  font-size: 20px;
   color: #495057;
   margin-bottom: 20px;
-  text-align: justify;
+  text-align: center;
   width: 100%;
   margin-top: 40px;
 `
 export const TextSecondary = styled.Text`
   font-family: 'Archivo_400Regular';
-  font-size: 21px;
+  font-size: 20px;
   color: #495057;
   margin-bottom: 20px;
-  text-align: justify;
+  text-align: center;
   width: 100%;
   margin-top: 5px;
 `
@@ -71,19 +77,36 @@ export const TextCenter = styled.Text`
   margin: 0 auto;
 `
 
+export const TextBold = styled.Text`
+  font-family: 'Archivo_400Regular';
+  font-size: 20px;
+  color: #495057;
+
+  font-weight: bold;
+`
+
 export const DevelopedBy = styled.Text`
   font-family: 'Archivo_700Bold_Italic';
-  font-size: 16px;
+  font-size: 18px;
   color: #484848;
   margin-bottom: 20px;
   text-align: center;
   width: 100%;
   margin: 0 auto;
-  margin-bottom: 15px;
+  margin-bottom: 20px;
 `
-
+export const ContainerImagens = styled.View`
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-evenly;
+`
 export const CourseImage = styled.Image`
   height: 135px;
   margin: 0 auto;
-  margin-bottom: 50px;
+  margin-bottom: 20px;
+`
+
+export const NpdImage = styled.Image`
+  height: 110px;
+  margin: 0 auto;
 `

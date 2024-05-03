@@ -37,7 +37,7 @@ export const Title = styled.Text`
   font-family: Archivo_700Bold_Italic;
   font-size: 32px;
   text-align: center;
-  color: #393d3f;
+  color: #313233;
   margin-top: 35px;
   margin-bottom: 10px;
 `
@@ -59,7 +59,7 @@ export const Description = styled.Text`
 export const NeedingVote = styled.Text`
   font-family: Archivo_700Bold_Italic;
   font-size: 24px;
-  color: #393d3f;
+  color: #313233;
   text-align: center;
   padding: 40px 20px 0 20px;
   margin-bottom: 40px;
@@ -83,7 +83,7 @@ export const SectionItem = styled.View`
 export const ItemText = styled.Text`
   font-family: Archivo_700Bold_Italic;
   font-size: 18px;
-  color: #484848;
+  color: #313233;
   padding: 8px 0;
   max-width: 80%;
 `
@@ -105,7 +105,7 @@ export const VoteFooter = styled.View`
 export const Button = styled.TouchableHighlight`
   width: 300px;
   height: 52px;
-  background-color: #008e1f;
+  background-color: #005204;
 
   display: flex;
   justify-content: center;
@@ -120,7 +120,7 @@ export const Button = styled.TouchableHighlight`
 export const TicketInfo = styled.Text`
   font-family: Archivo_400Regular;
   font-size: 20px;
-  color: #595959;
+  color: #313233;
   text-align: center;
   margin: 20px 0;
 `

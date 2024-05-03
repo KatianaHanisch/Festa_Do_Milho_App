@@ -361,7 +361,7 @@ export default function VoteBarrackModal({
 
           <SwitchInput>
             <Switch
-              trackColor={{ false: '#767577', true: '#008e1f' }}
+              trackColor={{ false: '#767577', true: '#005204' }}
               thumbColor={isStudent ? '#ffffff' : '#ffffff'}
               ios_backgroundColor="#3e3e3e"
               onValueChange={toggleSwitch}

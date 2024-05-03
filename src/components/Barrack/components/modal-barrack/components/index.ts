@@ -16,10 +16,15 @@ export const Container = styled.ScrollView`
   margin-bottom: 55px;
 `
 
+export const ContainerImage = styled.View`
+  width: 100%;
+  height: 250px;
+  align-items: center;
+  justify-content: center;
+`
 export const Image = styled.Image`
   width: 100%;
-  max-height: 220px;
-  margin-top: 45px;
+  height: 100%;
   z-index: -1;
 `
 
@@ -51,7 +56,7 @@ export const Section = styled.View`
 export const Description = styled.Text`
   font-family: Archivo_700Bold_Italic;
   font-size: 18px;
-  color: #beb4b4;
+  color: #717171;
 `
 
 export const SectionItem = styled.View`
@@ -63,10 +68,7 @@ export const SectionItem = styled.View`
   justify-content: space-between;
   align-items: center;
 
-  border-bottom-width: 1px;
-  border-style: solid;
-  border-bottom-color: #d8d4d4;
-  margin-bottom: 10px;
+  margin: 5px 0;
 `
 
 export const ItemText = styled.Text`
@@ -95,7 +97,7 @@ export const VoteFooter = styled.View`
 export const Button = styled.TouchableHighlight`
   width: 300px;
   height: 52px;
-  background-color: #008e1f;
+  background-color: #005204;
 
   display: flex;
   justify-content: center;
@@ -121,4 +123,9 @@ export const BarrackVoteModal = styled.Modal`
   shadow-color: #000;
   shadow-radius: 4px;
   elevation: 5;
+`
+export const Linha = styled.View`
+  width: 100%;
+  height: 1px;
+  background-color: #d8d4d4;
 `

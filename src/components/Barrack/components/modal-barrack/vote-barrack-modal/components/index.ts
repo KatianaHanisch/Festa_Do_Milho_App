@@ -70,7 +70,7 @@ export const AfterVoteInformation = styled.View`
 export const ClaimTicket = styled.TouchableHighlight`
   width: 100%;
   height: 62px;
-  background-color: #008e1f;
+  background-color: #005204;
 
   display: flex;
   justify-content: center;
@@ -84,7 +84,7 @@ export const ClaimTicket = styled.TouchableHighlight`
 export const Button = styled.TouchableHighlight`
   width: 100%;
   height: 62px;
-  background-color: #008e1f;
+  background-color: #005204;
 
   display: flex;
   justify-content: center;

@@ -3,7 +3,7 @@ import { BackHandler } from 'react-native'
 import { LinearGradient } from 'expo-linear-gradient'
 import { TouchableHighlight } from 'react-native-gesture-handler'
 
-import { FontAwesome5 as FA5 } from '@expo/vector-icons'
+import { Entypo } from '@expo/vector-icons'
 
 import {
   Button,
@@ -221,7 +221,7 @@ export default function Barrack({ navigation, barrack }: BarrackProps) {
   return (
     <ContainerCardBarrack>
       <LinearGradient
-        colors={['#008E1F', '#3F6B3E']}
+        colors={['#005204', '#214320']}
         start={{ x: 0, y: 1 }}
         end={{ x: 0.9, y: 0 }}
         locations={[0.1, 0.9]}
@@ -240,7 +240,7 @@ export default function Barrack({ navigation, barrack }: BarrackProps) {
                 <Subtitle>{barrack.curso}</Subtitle>
               </Details>
             </Row>
-            <FA5 name="chevron-right" color="#d9d9d9" size={28} />
+            <Entypo name="chevron-thin-right" color="#d9d9d9" size={20} />
 
             {/* <Stars>
           <FA5 name="star" color="#484848" size={28} />

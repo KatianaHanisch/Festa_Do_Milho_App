@@ -1,6 +1,5 @@
 import { StatusBar } from 'expo-status-bar'
 import * as React from 'react'
-import { View } from 'react-native'
 import {
   Container,
   Image,
@@ -14,7 +13,9 @@ import {
   VoteFooter,
   OutsideContainer,
   CloseIcon,
-  BarrackVoteModal
+  BarrackVoteModal,
+  ContainerImage,
+  Linha
 } from './components'
 import { FontAwesome5 as FA5 } from '@expo/vector-icons'
 
@@ -277,42 +278,48 @@ export default function ModalBarrack({
         >
           <FA5 name="times-circle" color="#484848" size={28} />
         </CloseIcon>
-        {image}
+        <ContainerImage>{image}</ContainerImage>
         <Title>{barrack.nome}</Title>
 
         <Section>
           <Description>comidas</Description>
 
-          {foods.map((food) => (
-            <SectionItem key={food.nome}>
-              <ItemText>{food.nome}</ItemText>
+          {foods.map((food, index) => (
+            <React.Fragment key={food.nome}>
+              <SectionItem key={food.nome}>
+                <ItemText>{food.nome}</ItemText>
 
-              {food.valor != 0 && (
-                <ItemText>
-                  {Number(food.valor).toLocaleString('pt-br', {
-                    style: 'currency',
-                    currency: 'BRL'
-                  })}
-                </ItemText>
-              )}
-            </SectionItem>
+                {food.valor != 0 && (
+                  <ItemText>
+                    {Number(food.valor).toLocaleString('pt-br', {
+                      style: 'currency',
+                      currency: 'BRL'
+                    })}
+                  </ItemText>
+                )}
+              </SectionItem>
+              {index < foods.length - 1 && <Linha />}
+            </React.Fragment>
           ))}
         </Section>
         <Section>
           <Description>bebidas</Description>
-          {drinks.map((drink) => (
-            <SectionItem key={drink.nome}>
-              <ItemText>{drink.nome}</ItemText>
+          {drinks.map((drink, index) => (
+            <React.Fragment key={drink.nome}>
+              <SectionItem>
+                <ItemText>{drink.nome}</ItemText>
 
-              {drink.valor != 0 && (
-                <ItemText>
-                  {drink.valor.toLocaleString('pt-br', {
-                    style: 'currency',
-                    currency: 'BRL'
-                  })}
-                </ItemText>
-              )}
-            </SectionItem>
+                {drink.valor != 0 && (
+                  <ItemText>
+                    {drink.valor.toLocaleString('pt-br', {
+                      style: 'currency',
+                      currency: 'BRL'
+                    })}
+                  </ItemText>
+                )}
+              </SectionItem>
+              {index < drinks.length - 1 && <Linha />}
+            </React.Fragment>
           ))}
         </Section>
       </Container>

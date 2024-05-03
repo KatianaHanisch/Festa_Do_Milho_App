@@ -111,7 +111,7 @@ export default function ModalBarrack({
 
       <VoteFooter>
         <Button onPress={() => setVoteBarrackModalOpen(true)}>
-          <ButtonText>NOS DÊ SEU VOTO!</ButtonText>
+          <ButtonText>Nos dê seu voto</ButtonText>
         </Button>
       </VoteFooter>
 

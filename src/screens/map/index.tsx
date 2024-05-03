@@ -19,7 +19,7 @@ export default function Map({ route, navigation }) {
 
   return (
     <Container>
-      <StatusBar style="dark" backgroundColor="#EFF1ED" />
+      <StatusBar style="dark" backgroundColor="#e5ebce" />
 
       <ReactNativeZoomableView
         maxZoom={1.5}

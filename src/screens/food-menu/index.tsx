@@ -20,7 +20,6 @@ export default function FoodMenu({ navigation }) {
   return (
     <Container>
       <Header title="Cardápio" />
-
       <Search>
         <Input
           placeholder="Pesquisar..."
