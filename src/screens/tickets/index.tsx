@@ -13,7 +13,6 @@ import {
 } from './components'
 
 import AsyncStorage from '@react-native-async-storage/async-storage'
-import { TouchableHighlight } from 'react-native-gesture-handler'
 import {
   Button,
   ButtonText,
@@ -42,10 +41,19 @@ interface UserPayloadTicketsType {
   id_barraca: number
 }
 
-export default function Tickets({ route, navigation }: TicketsScreenProps) {
-  const [userPayload, setUserPayload] = React.useState<UserPayloadType>(null)
+interface TicketType {
+  id_barraca: number
+  barraca: string
+  descricao: string
+  valor: number
+}
 
-  const [userTickets, setUserTickets] = React.useState(null)
+export default function Tickets({ navigation }: TicketsScreenProps) {
+  const [userPayload, setUserPayload] = React.useState<UserPayloadType | null>(
+    null
+  )
+
+  const [userTickets, setUserTickets] = React.useState<TicketType | null>(null)
   const [limitHour, setLimitHour] = React.useState('')
   const [day, setDay] = React.useState('')
 
