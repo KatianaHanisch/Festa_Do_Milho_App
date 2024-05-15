@@ -2,78 +2,169 @@
   "barracas": [
     {
       "id": 1,
-      "nome": "BARRACA ADMILHÕES",
-      "curso": "ADMINISTRAÇÃO",
+      "nome": "MILHARAL DO JÚRI",
+      "curso": "DIREITO",
       "cardapio": {
         "comidas": [
           {
-            "nome": "MILHO COZIDO",
-            "valor": 10
+            "nome": "Pamonha doce com quiejo e goiabada",
+            "valor": 17.99
           },
           {
-            "nome": "MILHO NA COSTELA",
-            "valor": 20
+            "nome": "Pamonha doce com quiejo ",
+            "valor": 17.99
           },
           {
-            "nome": "PAMONHA C/ QUEIJO",
-            "valor": 15
+            "nome": "Pamonha Salgada com quiejo ",
+            "valor": 17.99
           },
           {
-            "nome": "PAMONHA S/ QUEIJO",
-            "valor": 15
+            "nome": "Pamonha temperada",
+            "valor": 17.99
           },
           {
-            "nome": "ESPETO SIMPLES",
-            "valor": 10
+            "nome": "Milho Cozido",
+            "valor": 11.99
           },
           {
-            "nome": "ESPETO COMPLETO",
-            "valor": 15
+            "nome": "Milho da Larica Manoela",
+            "valor": 17.99
           },
           {
-            "nome": "CHURROS TRADICIONAL ",
-            "valor": 10
+            "nome": "Acompanhamento Vinagrete",
+            "valor": 4.99
           },
           {
-            "nome": "CHURROS GOURMET",
-            "valor": 15
+            "nome": "Acompanhamento Mandioca",
+            "valor": 4.99
           },
           {
-            "nome": "CHURROS GOURMET ESPECIAL",
-            "valor": 20
+            "nome": "Caldo de Mocotó 300 ml",
+            "valor": 14.99
+          },
+          {
+            "nome": "Caldo de frango 300 ml",
+            "valor": 14.99
+          },
+          {
+            "nome": "Pudim de Milho",
+            "valor": 9.99
+          },
+          {
+            "nome": "Beijinho de Milho - Prato Criativo",
+            "valor": 4.99
           }
         ],
         "bebidas": [
           {
-            "nome": "CHOPP LOUVADA PILSEN",
-            "valor": 10
+            "nome": "Água  s/ gás ",
+            "valor": 4.99
           },
           {
-            "nome": "CHOPP LOUVADA HOP LAGER",
+            "nome": "Água c/ gás ",
+            "valor": 4.99
+          },
+          {
+            "nome": "Coca Cola",
+            "valor": 5.99
+          },
+          {
+            "nome": "Guaraná ",
+            "valor": 4.99
+          },
+          {
+            "nome": "caipirinha de limão",
+            "valor": 14.99
+          },
+          {
+            "nome": "Chopp ",
+            "valor": 7.99
+          },
+          {
+            "nome": "3 - Chopp ",
+            "valor": 19.99
+          },
+          {
+            "nome": "Cerveja Lata - Original",
+            "valor": 5.99
+          },
+          {
+            "nome": "Cerveja Lata - Brahma",
+            "valor": 4.99
+          },
+          {
+            "nome": "Drink Habeas Corpus ",
+            "valor": 24.99
+          },
+          {
+            "nome": "Drink Condenação ",
+            "valor": 24.99
+          },
+          {
+            "nome": "Copão Universitário - Whisky ",
+            "valor": 24.99
+          },
+          {
+            "nome": "Copão Universitário - Vodka ",
+            "valor": 19.99
+          },
+          {
+            "nome": "Long Drink Milharal",
+            "valor": 14.99
+          }
+        ]
+      }
+    },
+    {
+      "id": 2,
+      "nome": " ARQTEMCHOPP",
+      "curso": "ARQUITETURA E URBANISMO ",
+      "cardapio": {
+        "comidas": [
+          {
+            "nome": "MILHO ASSADO (COM MANTEIGA)",
             "valor": 12
           },
           {
-            "nome": "drink. MOSCOW MULE",
-            "valor": 30
+            "nome": "MILHO COZIDO ",
+            "valor": 12.0
           },
           {
-            "nome": "drink. ALGODÃO DOCE",
-            "valor": 25
+            "nome": "PAMONHA ",
+            "valor": 18
           },
           {
-            "nome": "drink. ABACAXI E PITAYA",
-            "valor": 25
+            "nome": "ESPETO ",
+            "valor": 12
           },
           {
-            "nome": "ABACAXI E PITAYA s/alcool",
+            "nome": "ESPETO SIMPLES 1",
+            "valor": 12
+          },
+          {
+            "nome": "ESPETO SIMPLES 2",
+            "valor": 15
+          },
+          {
+            "nome": "ESPETO COMPLETO",
             "valor": 20
           },
           {
-            "nome": "ALGODÃO DOCE s/alcool",
-            "valor": 20
+            "nome": "CHURROS (DOCE DE LEITE, CHOCOLATE)",
+            "valor": 10
           },
           {
-            "nome": "REFRIGERANTE",
+            "nome": "CHUROS (NUTELLA)",
+            "valor": 15
+          },
+          {
+            "nome": "ALGODÃO DOCE ",
+            "valor": 10
+          }
+        ],
+        "bebidas": [
+          {
+            "nome": "ÁGUA",
             "valor": 5
           },
           {
@@ -81,364 +172,209 @@
             "valor": 5
           },
           {
-            "nome": "ÁGUA S/GÁS",
+            "nome": "REFRI LATA COCA E GUARANÁ ",
             "valor": 5
+          },
+          {
+            "nome": "CAIPIRINHA DE LIMÃO/ MARACUJÁ",
+            "valor": 12
+          },
+          {
+            "nome": "CHOPP BRAHMA (COPO 300ML)",
+            "valor": 12
           }
         ]
       }
     },
     {
-      "id": 2,
-      "nome": "ARQTEMCHOPP",
-      "curso": "ARQUITETURA E URBANISMO ",
+      "id": 4,
+      "nome": "ICE TERAPIA",
+      "curso": "FISIOTERAPIA",
       "cardapio": {
         "comidas": [
           {
-            "nome": "ESPETINHO SIMPLES ",
+            "nome": "Pão com carne moída ",
             "valor": 12
           },
           {
-            "nome": "ESPETINHO COMPLETO",
-            "valor": 18
-          },
-          {
-            "nome": "MILHO ASSADO",
-            "valor": 12
-          },
-          {
-            "nome": "MILHO COZIDO",
-            "valor": 12
-          },
-          {
-            "nome": "PAMONHA C/S QUEIJO",
-            "valor": 15
-          },
-          {
-            "nome": "CHURROS",
+            "nome": "Porção de batata",
             "valor": 10
+          },
+          {
+            "nome": "Bolo salgado de milho",
+            "valor": 12
+          },
+          {
+            "nome": "Bolo  doce de milho",
+            "valor": 12
+          },
+          {
+            "nome": "Bolo de milho com queijo",
+            "valor": 13
+          },
+          {
+            "nome": "Pudim de milho com goibada",
+            "valor": 12
+          },
+          {
+            "nome": "Pipoca gourmet",
+            "valor": 7
           }
         ],
         "bebidas": [
           {
-            "nome": "ÁGUA C/S GÁS",
+            "nome": "Água s/ gás",
             "valor": 5
           },
           {
-            "nome": "REFRIGERANTE",
-            "valor": 5
-          },
-          {
-            "nome": "CAIPIRINHA DE LIMÃO",
-            "valor": 12
-          },
-          {
-            "nome": "CAPIRINHA DE MARACUJÁ",
-            "valor": 12
-          },
-          {
-            "nome": "CHOPP BRAHMA PILSEN",
-            "valor": 10
-          }
-        ]
-      }
-    },
-    {
-      "id": 3,
-      "nome": "ODONTOSAFRA",
-      "curso": "ODONTOLOGIA",
-      "cardapio": {
-        "comidas": [
-          {
-            "nome": "Algodão doce ",
-            "valor": 10
-          },
-          {
-            "nome": "Cachorro quente ",
-            "valor": 15
-          },
-          {
-            "nome": "Espetinho completo ",
-            "valor": 20
-          },
-          {
-            "nome": "espetinho simples ",
-            "valor": 12
-          }
-        ],
-        "bebidas": [
-          {
-            "nome": "Gelatina com vodka ",
-            "valor": 2
-          },
-          {
-            "nome": "Água com gás ",
-            "valor": 5
-          },
-          {
-            "nome": "Água sem gás ",
-            "valor": 5
+            "nome": "Água c/ gás",
+            "valor": 6
           },
           {
             "nome": "Refrigerante",
-            "valor": 5
+            "valor": 6
           },
           {
-            "nome": "Chopp Tradicional",
-            "valor": 7
+            "nome": "Chopp Brahma",
+            "valor": 10.99
           },
           {
-            "nome": "chopp cosmel ",
-            "valor": 10
+            "nome": "Drink Polar",
+            "valor": 15
           },
           {
-            "nome": "Chopp de vinho ",
-            "valor": 20
+            "nome": "Drink Ice",
+            "valor": 15
           },
           {
             "nome": "Caipirinha",
+            "valor": 15
+          },
+          {
+            "nome": "Ice",
             "valor": 10
+          },
+          {
+            "nome": "Batida pronta",
+            "valor": 15
+          },
+          {
+            "nome": "Gela Crânio Askov azul",
+            "valor": 15
+          },
+          {
+            "nome": "Copão de vodka",
+            "valor": 15
+          },
+          {
+            "nome": "Copão de whisky",
+            "valor": 20
+          },
+          {
+            "nome": "Capeta 500ml ",
+            "valor": 20
           }
         ]
       }
     },
     {
       "id": 5,
-      "nome": "AGROMAFIA",
-      "curso": "AGRONOMIA",
+      "nome": "Dopamina",
+      "curso": "BIOMEDICINA",
       "cardapio": {
         "comidas": [
           {
-            "nome": "PAO COM LINGUIÇA",
-            "valor": 12.99
+            "nome": "CALDO C/MILHO",
+            "valor": 20
           },
           {
-            "nome": "CURAL",
-            "valor": 12
+            "nome": "MILHO NA ESPIGA",
+            "valor": 10.0
           },
           {
-            "nome": "CUSCUZ",
-            "valor": 10
-          },
-          {
-            "nome": "ADICIONAL CUSCUZ CATUPIRY",
-            "valor": 3
-          },
-          {
-            "nome": "ADICIONAL CUSCUZ QUEIJO CHEDDAR ",
-            "valor": 3
-          },
-          {
-            "nome": "ADICIONAL CUSCUZ BACON",
-            "valor": 4
-          },
-          {
-            "nome": "ADICIONAL CUSCUZ CALABRESA",
-            "valor": 4
-          },
-          {
-            "nome": "ADICIONAL CUSCUZ FRANGO",
-            "valor": 4
-          },
-          {
-            "nome": "MILK SHAKE ARTESANAL DE MILHO ",
-            "valor": 12
-          },
-          {
-            "nome": "MILK SHAKE DE MILHO ALCOOLICO",
-            "valor": 12.99
-          },
-          {
-            "nome": "ADICIONAL MILK SHAKE - PAÇOCA",
-            "valor": 1
-          },
-          {
-            "nome": "ADICIONAL MILK SHAKE - OVOMALTINE ",
-            "valor": 2
-          },
-          {
-            "nome": "ADICIONAL MILK SHAKE - DOCE DE LEITE",
-            "valor": 2
+            "nome": "MILHO NO POTINHO",
+            "valor": 15
           }
         ],
         "bebidas": [
           {
-            "nome": "CHOPP BRAHMA 400ML",
-            "valor": 10.99
+            "nome": "ÁGUA",
+            "valor": 5
           },
           {
-            "nome": "CHOPP BRAHMA COZUMEL",
-            "valor": 11.99
-          },
-          {
-            "nome": "HEINEKEN ",
-            "valor": 8
+            "nome": "ÁGUA C/GÁS",
+            "valor": 5
           },
           {
             "nome": "REFRI LATA",
             "valor": 5
           },
           {
-            "nome": "AGUA C/ GÁS",
-            "valor": 5
-          },
-          {
-            "nome": "AGUA S/ GÁS ",
-            "valor": 5
-          },
-          {
-            "nome": "SUCO PRATS ",
-            "valor": 10
-          },
-          {
-            "nome": "RED BULL",
+            "nome": "COPÃO UNIVERSITÁRIO ",
             "valor": 15
           },
           {
-            "nome": "MOJITO ",
-            "valor": 20
+            "nome": "GELATINA DE VODKA",
+            "valor": 4
           },
           {
-            "nome": "LAGOA AZUL",
-            "valor": 20
-          },
-          {
-            "nome": "CAIPIROSKA LIMÃO",
-            "valor": 20
-          },
-          {
-            "nome": "CAIPIRINHA LIMÃO ",
-            "valor": 15
-          },
-          {
-            "nome": "CAIPIGIN ",
-            "valor": 20
-          },
-          {
-            "nome": "COPÃO DE VODCA ",
-            "valor": 15
-          },
-          {
-            "nome": "COPÃO DE WHISKY",
+            "nome": "COPÃO MAROMBA",
             "valor": 25
           },
           {
-            "nome": "COPÃO CAMPARI ",
+            "nome": "CAIPIRINHA MARACUJÁ C/PIMENTA",
             "valor": 20
           },
           {
-            "nome": "DOSE CAMPARI ",
-            "valor": 12
+            "nome": "CAIPIRINHA MARACUJÁ AFRODISÍACA",
+            "valor": 25
           },
           {
-            "nome": "DOSE WHISKY",
-            "valor": 15
-          },
-          {
-            "nome": "DOSE VODCA",
+            "nome": "Chopp",
             "valor": 10
-          },
-          {
-            "nome": "3 DOSES DE TEQUILA ",
-            "valor": 5
           }
         ]
       }
     },
     {
       "id": 7,
-      "nome": "Butecodontia",
-      "curso": "ODONTOLOGIA ",
+      "nome": "EMBRIAGRO",
+      "curso": "AGRONOMIA ",
       "cardapio": {
         "comidas": [
           {
-            "nome": "Buteco Doido P (Creme de milho, bacon, linguiça\napimentada e cheiro verde.\nAcompanhamento: torradinhas)",
-            "valor": 15
+            "nome": "Canjica",
+            "valor": 8
           },
           {
-            "nome": "Buteco Doido G(Creme de milho, bacon, linguiça\napimentada e cheiro verde.\nAcompanhamento: torradinhas)",
-            "valor": 20
-          },
-          {
-            "nome": "Fricassê Com Cubos\nde Milho(Fricassê de milho com frango e\ncubos de milho)",
-            "valor": 25
-          },
-          {
-            "nome": "Fricassê de Milho\nCom Frango(Fricassê de milho com frango.\nAcompanhamentos: arroz branco\ne batata palha.)",
-            "valor": 20
-          },
-          {
-            "nome": "X-Linguiça Especial(Pão Francês ou pão de queijo\nrecheado com linguiça assada,\nmaionese verde caseira, tomate,\nalface e batata palha)",
-            "valor": 20
-          },
-          {
-            "nome": "Pudim de Leite\nCom Milho(Pudim de leite condensado\ncom milho)",
+            "nome": " esperto de carne + molho de milho",
             "valor": 10
           },
           {
-            "nome": "Porção de Carne\nCom Mandioca(Tiras de carne fritas com\nmandioca cozida)",
-            "valor": 45
+            "nome": "Esperto simples ",
+            "valor": 8
           },
           {
-            "nome": "Bolinho Doce de Milho(Bolinho de milho com calda de\ngoiaba ou leite condensado)",
-            "valor": 8
+            "nome": "Esperto + mandioca",
+            "valor": 10
           }
         ],
         "bebidas": [
           {
-            "nome": "Água Com Gás",
+            "nome": "Água ",
             "valor": 5
           },
           {
-            "nome": "Água Sem Gás",
+            "nome": "Copo de cerveja Pilsen ",
             "valor": 5
           },
           {
-            "nome": "Fanta Laranja",
+            "nome": "Copo de coca cola ",
             "valor": 6
           },
           {
-            "nome": "Guaraná Lata",
+            "nome": "Copo de caipirinha ",
             "valor": 6
-          },
-          {
-            "nome": "Coca-Cola Lata",
-            "valor": 6
-          },
-          {
-            "nome": "Cerveja Império Lata",
-            "valor": 5
-          },
-          {
-            "nome": "Cerveja Original Lata",
-            "valor": 5
-          },
-          {
-            "nome": "Cerveja Brahma Lata",
-            "valor": 5
-          },
-          {
-            "nome": "Chop Bionda (300ml)",
-            "valor": 8
-          },
-          {
-            "nome": "Combo: 3 Chops (300ml)",
-            "valor": 20
-          },
-          {
-            "nome": "Moscow Mule",
-            "valor": 30
-          },
-          {
-            "nome": "Abacaxi e Pitaya",
-            "valor": 25
-          },
-          {
-            "nome": "Algodão Doce",
-            "valor": 25
-          },
-          {
-            "nome": "Sem Álcool",
-            "valor": 20
           }
         ]
       }
@@ -450,8 +386,8 @@
       "cardapio": {
         "comidas": [
           {
-            "nome": "FRANGO COM POLENTA",
-            "valor": 25
+            "nome": "RISOTO DE MILHO",
+            "valor": 15
           }
         ],
         "bebidas": [
@@ -486,76 +422,9 @@
           {
             "nome": "GUARANÁ 269ML ",
             "valor": 5
-          }
-        ]
-      }
-    },
-    {
-      "id": 9,
-      "nome": "KING'S MILHO",
-      "curso": "ARQUITETURA E URBANISMO",
-      "cardapio": {
-        "comidas": [
-          {
-            "nome": "RISOTO DE MILHO",
-            "valor": 15
           },
           {
-            "nome": "PORÇÃO BATATA FRITA ",
-            "valor": 10
-          },
-          {
-            "nome": "PORÇÃO BOLINHO FRITO DE MILHO ",
-            "valor": 10
-          },
-          {
-            "nome": "PORÇÃO NUGGETS",
-            "valor": 10
-          }
-        ],
-        "bebidas": [
-          {
-            "nome": "CAIPILÉ DE MILHO",
-            "valor": 15
-          },
-          {
-            "nome": "BATIDINHA C/ SORVETE DE MILHO",
-            "valor": 15
-          },
-          {
-            "nome": "MOJITO",
-            "valor": 15
-          },
-          {
-            "nome": "WHISKEY + ENERGÉTICO",
-            "valor": 15
-          },
-          {
-            "nome": "DOSES DE TEQUILA",
-            "valor": 5
-          },
-          {
-            "nome": "CERVEJA LATA",
-            "valor": 6
-          },
-          {
-            "nome": "ÁGUA MINERAL ",
-            "valor": 5
-          },
-          {
-            "nome": "ÁGUA COM GÁS ",
-            "valor": 5
-          },
-          {
-            "nome": "REFRIGERANTE LATA",
-            "valor": 5
-          },
-          {
-            "nome": "CHOPP 300ML",
-            "valor": 10
-          },
-          {
-            "nome": "CHOPP 500ML",
+            "nome": "ENERGÉTICO RED BULL 250ML",
             "valor": 15
           }
         ]
@@ -563,940 +432,535 @@
     },
     {
       "id": 10,
-      "nome": "IMPÉRIO GRÃO",
-      "curso": "ODONTOLOGIA",
+      "nome": "FAROESTE BAR",
+      "curso": "AGRONOMIA",
       "cardapio": {
         "comidas": [
           {
-            "nome": "CONE DE CALABRESA",
-            "valor": 20
+            "nome": "Bolo de milho",
+            "valor": 5
           },
           {
-            "nome": "CONE IMPERIAL",
-            "valor": 22
+            "nome": "Cachorro quente",
+            "valor": 10
           },
           {
-            "nome": "CONE DOCE ",
-            "valor": 25
+            "nome": "Tortilha a base de milho",
+            "valor": 12
           },
           {
-            "nome": "EMPADÃO DE FRANGO ",
-            "valor": 20
+            "nome": "Palha italiana",
+            "valor": 6
           },
           {
-            "nome": "TORTA BOMBOCADO DE COCO",
-            "valor": 20
+            "nome": "Pinhão",
+            "valor": 12
           }
         ],
         "bebidas": [
           {
-            "nome": "REFRIGERANTE",
+            "nome": "Água com e sem gás",
             "valor": 5
           },
           {
-            "nome": "AGUA COM E SEM GAS",
-            "valor": 5
+            "nome": "Caipirinha ",
+            "valor": 10
           },
           {
-            "nome": "CHOPP PILSEN",
-            "valor": 8
+            "nome": "Cerveja copo 500ml",
+            "valor": 6
           },
           {
-            "nome": "CAIPIRINHA/CAIPIROSKA DE MORANGO E MARACUJA",
-            "valor": 20
+            "nome": "Copão Universitário",
+            "valor": 10
           },
           {
-            "nome": "CAIPIRINHA DE LIMÃO E ABACAXI",
+            "nome": "Energético",
             "valor": 15
           },
           {
-            "nome": "MOJITO",
-            "valor": 15
+            "nome": "Heineken Long Neck",
+            "valor": 12
+          },
+          {
+            "nome": "Quentão",
+            "valor": 6
+          },
+          {
+            "nome": "Refri lata",
+            "valor": 6
+          },
+          {
+            "nome": "Dose de campari",
+            "valor": 25
           }
         ]
       }
     },
     {
       "id": 11,
-      "nome": "MILHODONTIA",
+      "nome": "ButecoDontia",
       "curso": "ODONTOLOGIA",
       "cardapio": {
         "comidas": [
           {
-            "nome": "Espetinho completo",
+            "nome": "Espetinho  Simples ",
+            "valor": 13
+          },
+          {
+            "nome": "Espetinho Completo",
+            "valor": 18
+          },
+          {
+            "nome": "Cones Recheados Salgado",
             "valor": 20
           },
           {
-            "nome": "Espetinho simples",
+            "nome": "Cones Recheados Doce",
+            "valor": 25
+          },
+          {
+            "nome": "Pão com Linguiça ",
             "valor": 15
           },
           {
-            "nome": "Crepe salgado e doce",
+            "nome": "Bolo de Milho ",
             "valor": 8
           },
           {
-            "nome": "Caldo de mandioca com bacon e calabresa",
+            "nome": "Pão de Milho",
+            "valor": 8
+          },
+          {
+            "nome": "Pipoca Gourmet",
             "valor": 15
-          },
-          {
-            "nome": "Taco (tortilha de milho)- 1 unidade",
-            "valor": 15
-          },
-          {
-            "nome": "Tacos (tortilha de milho)- 2 unidades",
-            "valor": 25
-          },
-          {
-            "nome": "Nachos (tortilha de milho)- porção",
-            "valor": 25
           }
         ],
         "bebidas": [
           {
-            "nome": "Quentão",
-            "valor": 10
-          },
-          {
-            "nome": "Chopp Colina",
-            "valor": 7
-          },
-          {
-            "nome": "Refrigerante (Coca lata)",
+            "nome": "Água com e sem Gás",
             "valor": 5
           },
           {
-            "nome": "Refrigerante (Guaraná lata)",
-            "valor": 5
-          },
-          {
-            "nome": "Água (com e sem gás)",
-            "valor": 5
-          },
-          {
-            "nome": "Cerveja Skol",
-            "valor": 6
-          },
-          {
-            "nome": "Copão (Vodka/Energético)",
-            "valor": 10
-          },
-          {
-            "nome": "Caipirinha de limão",
-            "valor": 15
-          }
-        ]
-      }
-    },
-    {
-      "id": 13,
-      "nome": "BARRACA HEMOGRÃO",
-      "curso": "BIOMEDICINA",
-      "cardapio": {
-        "comidas": [
-          {
-            "nome": "MAÇÃ DO AMOR",
-            "valor": 10
-          },
-          {
-            "nome": "X BURGER ",
-            "valor": 30
-          },
-          {
-            "nome": "X BACON ",
-            "valor": 35
-          },
-          {
-            "nome": "HAMBÚRGER SUÍNO",
-            "valor": 32
-          },
-          {
-            "nome": "PASTEL ",
+            "nome": "Energético ",
             "valor": 15
           },
           {
-            "nome": "COCADA",
-            "valor": 5
+            "nome": "Refrigerante",
+            "valor": 6
           },
           {
-            "nome": "CRI CRI",
-            "valor": 5
+            "nome": "Cerveja",
+            "valor": 6
           },
           {
-            "nome": "ALFAJOR",
+            "nome": "Caipirinha",
             "valor": 10
           },
           {
-            "nome": "CALDO ",
-            "valor": 15
-          },
-          {
-            "nome": "DOUBLE BURGER",
-            "valor": 38
-          },
-          {
-            "nome": "BRIGADEIRO",
-            "valor": 3
-          }
-        ],
-        "bebidas": [
-          {
-            "nome": "CERVEJAS",
-            "valor": 5
-          },
-          {
-            "nome": "ÁGUA",
-            "valor": 5
-          },
-          {
-            "nome": "REFRIGERANTE ",
-            "valor": 5
-          },
-          {
-            "nome": "QUENTÃO ",
+            "nome": "Chopp",
             "valor": 10
           },
           {
-            "nome": "CHOPP 250ML",
-            "valor": 5
+            "nome": "Trio de Chopp",
+            "valor": 25
           },
           {
-            "nome": "CHOPP 500ML",
+            "nome": "Chopp Cozmel ",
+            "valor": 13
+          },
+          {
+            "nome": "Régua de Shot",
             "valor": 10
-          }
-        ]
-      }
-    },
-    {
-      "id": 14,
-      "nome": "INFECTAMILHO",
-      "curso": "ENFERMAGEM",
-      "cardapio": {
-        "comidas": [
-          {
-            "nome": "BOLO DE MILHO COM REQUEIJÃO PEDAÇO",
-            "valor": 7
           },
           {
-            "nome": "BOLO DE MILHO COM GOIABADA PEDAÇO",
-            "valor": 7
-          },
-          {
-            "nome": "BOLO DE MILHO TRADICIONAL",
-            "valor": 7
-          },
-          {
-            "nome": "BOLO INTEIRO DE MILHO COM REQUEIJÃO",
-            "valor": 30
-          },
-          {
-            "nome": "BOLO INTEIRO DE MILHO COM GOIABADA",
-            "valor": 30
-          },
-          {
-            "nome": "BOLO INTEIRO DE MILHO",
-            "valor": 30
-          },
-          {
-            "nome": "TORTINHA DE MILHO DE CALABRESA E BACON",
-            "valor": 6
-          },
-          {
-            "nome": "TORTINHA DE MILHO REQUEIJÃO",
-            "valor": 6
-          },
-          {
-            "nome": "TORTINHA DE MILHO",
-            "valor": 6
-          },
-          {
-            "nome": "CUSCUZ DOCE DE BRIGADEIRO",
-            "valor": 20
-          },
-          {
-            "nome": "CUSCUZ DOCE DE ROMEU E JULIETA",
-            "valor": 22
-          },
-          {
-            "nome": "CREME DE MILHO 150 ML",
-            "valor": 6
-          },
-          {
-            "nome": "BRIGADEIRO DE MILHO 4 UNID",
-            "valor": 12
-          },
-          {
-            "nome": "CUSCUZ SALGADO TRADICIONAL",
-            "valor": 14
-          },
-          {
-            "nome": "CUSCUZ COM PRESUNTO E QUEIJO",
-            "valor": 18
-          },
-          {
-            "nome": "CUSCUZ COM CARNE SECA",
-            "valor": 24
-          },
-          {
-            "nome": "CUSCUZ COM FRANGO",
-            "valor": 20
-          },
-          {
-            "nome": "CUSCUZ COM CALABRESA",
-            "valor": 20
-          },
-          {
-            "nome": "CALDO DE KENGA",
-            "valor": 20
-          }
-        ],
-        "bebidas": [
-          {
-            "nome": "CERVEJA",
-            "valor": 5
-          },
-          {
-            "nome": "ÁGUA COM GÁS",
-            "valor": 5
-          },
-          {
-            "nome": "ÁGUA SEM GÁS",
-            "valor": 5
-          },
-          {
-            "nome": "REFRIGERENTE",
-            "valor": 5
-          },
-          {
-            "nome": "QUENTÃO 300 ML ",
-            "valor": 15
-          },
-          {
-            "nome": "LINDOCAINA 300 ML",
-            "valor": 18
-          },
-          {
-            "nome": "LINDOCAINA 500 ML",
-            "valor": 32
-          },
-          {
-            "nome": "EPINEFRINA 300 ML",
-            "valor": 17
-          },
-          {
-            "nome": "EPINEFRINA 500 ML",
-            "valor": 25
-          },
-          {
-            "nome": "FENTANIL 300 ML",
-            "valor": 25
-          },
-          {
-            "nome": "FENTANIL500 ML",
-            "valor": 30
-          },
-          {
-            "nome": "PARACETAMOL 300 ML ",
-            "valor": 17
-          },
-          {
-            "nome": "PARACETAMOL 500 ML",
-            "valor": 25
-          },
-          {
-            "nome": "MORFINA 300 ML",
-            "valor": 22
-          },
-          {
-            "nome": "MORFINA 500 ML",
-            "valor": 38
-          },
-          {
-            "nome": "COPÃO UNIVERSITÁRIO VODKA",
-            "valor": 20
-          },
-          {
-            "nome": "COPÃO UNIVERSITÁRIO WHISK",
-            "valor": 25
+            "nome": "Seringa de Shot",
+            "valor": 4
           }
         ]
       }
     },
     {
       "id": 15,
-      "nome": "MILHONÁRIOS ",
-      "curso": "ENGENHARIA CIVIL",
+      "nome": "MILHOCARDIO ",
+      "curso": "FISIOTERAPIA ",
       "cardapio": {
         "comidas": [
           {
-            "nome": "CANJIQUINHA DOCE",
-            "valor": 10
+            "nome": "BOLO (FATIA)",
+            "valor": 9
           },
           {
-            "nome": "CANJIQUINHA SALGADA ",
-            "valor": 20
+            "nome": "GELATINA ALCOLICA",
+            "valor": 2.5
           },
           {
-            "nome": "PORÇÃO - FRANGO A PASSARINHO",
+            "nome": "CALDO DE MILHO (300ML)",
+            "valor": 12
+          },
+          {
+            "nome": "SANDUICHE DE COSTELA ",
             "valor": 35
           },
           {
-            "nome": "PORÇÃO - MEIA FRANGO A PASSARINHO E MEIA BATATA FRITA",
-            "valor": 30
-          },
-          {
-            "nome": "CALABRESA ",
-            "valor": 25
-          },
-          {
-            "nome": "CALABRESA COM PURURUCA",
-            "valor": 30
-          },
-          {
-            "nome": "BATATA FRITA ",
-            "valor": 25
+            "nome": "CONE DE PORCO",
+            "valor": 20
           }
         ],
         "bebidas": [
           {
-            "nome": "COQUETEL -  Morango, Maracuja e Abacaxi",
-            "valor": 25
+            "nome": "CHOPP BRAHMA",
+            "valor": 12
           },
           {
-            "nome": "MOJITO",
-            "valor": 25
-          },
-          {
-            "nome": "PINA COLADA",
-            "valor": 25
-          },
-          {
-            "nome": "MILHONÁRIOS - Coquetel de milho",
-            "valor": 25
-          },
-          {
-            "nome": "CHOPP - 300mL",
-            "valor": 7
-          },
-          {
-            "nome": "ÁGUA ",
+            "nome": "AGUA COM E SEM GAS ",
             "valor": 5
           },
           {
-            "nome": "REFRIGERANTE ",
-            "valor": 5
+            "nome": "REFRIGERANTE LATA",
+            "valor": 6
           },
           {
-            "nome": "DOSES DE LICOR ",
-            "valor": 5
+            "nome": "H2O",
+            "valor": 8
           },
           {
-            "nome": "COMBO - 2 CAIPIRINHAS",
-            "valor": 30
-          },
-          {
-            "nome": "COMBO - 2 COQUITEIS ",
-            "valor": 40
-          },
-          {
-            "nome": "COMBO - 3 CHOPP 300mL",
+            "nome": "INFARTO DO MILHOCARDIO",
             "valor": 20
+          },
+          {
+            "nome": "LAGOA AZUL",
+            "valor": 25
+          },
+          {
+            "nome": "COPAO UNIVERSITARIO",
+            "valor": 15
+          },
+          {
+            "nome": "COPAO DE PRATS",
+            "valor": 22
+          },
+          {
+            "nome": "CAMPARI ",
+            "valor": 25
           }
         ]
       }
     },
     {
       "id": 16,
-      "nome": "MILHOCARDIO",
-      "curso": "FISIOTERAPIA",
+      "nome": "MÉXICO MILHO",
+      "curso": "DIREITO",
       "cardapio": {
         "comidas": [
           {
-            "nome": "CANJICA DOCE",
-            "valor": 8
-          },
-          {
-            "nome": "MILHO NO POTE C/ BACON E MANTEIGA",
+            "nome": "ESPETINHO SIMPLES",
             "valor": 12
           },
           {
-            "nome": "PASTEIZINHOS DE FUBÁ (CARNE E QUEIJO) 8 UNIDADES",
+            "nome": "BURGER ARTESANAL C/ CREME DE MILHO",
             "valor": 25
           },
           {
-            "nome": "PASTEIZINHOS DE FUBÁ (FRANGO C/ CATUPIRY) 8 UNIDADES",
-            "valor": 25
+            "nome": "TORTILHA DE MILHO ",
+            "valor": 15
           },
           {
-            "nome": "PASTEIZINHOS DE FUBÁ (PRESUNTO E QUEIJO) 8 UNIDADES",
-            "valor": 20
+            "nome": "FRANGO NO DISCO COM MILHO",
+            "valor": 15
           },
           {
-            "nome": "GELATINA ALCOOLICA",
-            "valor": 2.5
+            "nome": "ESPETINHO COM MANDIOCA E FAROFA",
+            "valor": 15
           }
         ],
         "bebidas": [
           {
-            "nome": "ÁGUA COM GÁS ",
-            "valor": 5
-          },
-          {
-            "nome": "ÁGUA SEM GÁS",
-            "valor": 5
-          },
-          {
-            "nome": "REFRIGERANTES",
-            "valor": 6
-          },
-          {
-            "nome": "QUENTÃO",
+            "nome": "CHOPP BRAHMA",
             "valor": 10
           },
           {
-            "nome": "CHOPP",
-            "valor": 12
-          },
-          {
-            "nome": "LAGOA AZUL",
-            "valor": 15
-          },
-          {
-            "nome": "INFARTO DO MILHOCARDIO",
-            "valor": 12
-          },
-          {
-            "nome": "COPÃO UNIVERSITARIO",
-            "valor": 10
-          },
-          {
-            "nome": "DOSE DE CAMPARI",
-            "valor": 15
-          },
-          {
-            "nome": "CAMPARI COM SUCO DE LARANJA",
-            "valor": 20
-          }
-        ]
-      }
-    },
-    {
-      "id": 17,
-      "nome": "MILHOGLOBULINA",
-      "curso": "BIOMEDICINA ",
-      "cardapio": {
-        "comidas": [
-          {
-            "nome": "FRICASSE ",
-            "valor": 26.9
-          },
-          {
-            "nome": "BATATA FRITA SIMPLES ",
-            "valor": 25
-          },
-          {
-            "nome": "BATATA COM CHEDDAR E BACON",
-            "valor": 34.9
-          },
-          {
-            "nome": " CALABRESA ACEBOLADA 500G",
-            "valor": 29.9
-          },
-          {
-            "nome": "SANDUBÃO (PÃO COM LINGUIÇA)",
-            "valor": 12.9
-          },
-          {
-            "nome": "COMBINADO DE SALGADOS ",
-            "valor": 12
-          },
-          {
-            "nome": "MINI PUDIM DE MILHO VERDE ",
-            "valor": 10.5
-          }
-        ],
-        "bebidas": [
-          {
-            "nome": "CHOPP BIONDA 300ML",
-            "valor": 7
-          },
-          {
-            "nome": "CHOPP BIONDA 500ML",
-            "valor": 9
-          },
-          {
-            "nome": "CERVEJA LATA ",
-            "valor": 6
-          },
-          {
-            "nome": "COCA COLA LATA",
+            "nome": "REFRIGERANTE ",
             "valor": 5
-          },
-          {
-            "nome": "GUARANÁ LATA",
-            "valor": 5
-          },
-          {
-            "nome": "ÁGUA SEM GÁS ",
-            "valor": 5
-          },
-          {
-            "nome": "ÁGUA COM GÁS ",
-            "valor": 6
-          },
-          {
-            "nome": "QUENTÃO ",
-            "valor": 10
-          },
-          {
-            "nome": "COPÃO DE WHISKY",
-            "valor": 15.9
-          },
-          {
-            "nome": "COPÃO DE VODKA ",
-            "valor": 10.9
-          },
-          {
-            "nome": "CAIPIRINHA",
-            "valor": 20
-          },
-          {
-            "nome": "ZÉ GOTINHA ",
-            "valor": 19.9
-          }
-        ]
-      }
-    },
-    {
-      "id": 18,
-      "nome": "Milhosoft",
-      "curso": "ANÁLISE E DESENVOLVIMENTO DE SISTEMAS",
-      "cardapio": {
-        "comidas": [
-          {
-            "nome": "BATATA FRITA COM BACON E CHEDDAR",
-            "valor": 35
-          },
-          {
-            "nome": "PÃO COM LINGUIÇA",
-            "valor": 17
-          },
-          {
-            "nome": "TIRAS DE FRANGO FRITO",
-            "valor": 20
-          },
-          {
-            "nome": "COMBO PÃO COM LINGUIÇA + 1 CHOPP",
-            "valor": 22
-          },
-          {
-            "nome": "COMBO PÃO COM LINGUIÇA + 1 REFRIGERANTE LATA",
-            "valor": 20
-          },
-          {
-            "nome": "COMBO 2 CHOPPS + 1 TIRA DE FRANGO FRITO",
-            "valor": 30
-          },
-          {
-            "nome": "PIPOCA GOURMET",
-            "valor": 8
-          },
-          {
-            "nome": "PIPOCA SALGADA",
-            "valor": 2
-          }
-        ],
-        "bebidas": [
-          {
-            "nome": "Água sem gás",
-            "valor": 5
-          },
-          {
-            "nome": "Água com gás",
-            "valor": 5
-          },
-          {
-            "nome": "Refrigerante lata",
-            "valor": 5
-          },
-          {
-            "nome": "CERVEJA LATA",
-            "valor": 5
-          },
-          {
-            "nome": "CHOPP SEVERA 350ML",
-            "valor": 7
-          },
-          {
-            "nome": "COMBO DE CHOPP SEVERA (3 COPOS)",
-            "valor": 18
-          },
-          {
-            "nome": "CAIPIRINHA DE LIMÃO",
-            "valor": 10
-          },
-          {
-            "nome": "CAIPIRINHA DE MORANGO",
-            "valor": 15
-          },
-          {
-            "nome": "CAIPIROSKA DE LIMÃO",
-            "valor": 15
-          },
-          {
-            "nome": "CAIPIROSKA DE MORANGO",
-            "valor": 17
-          }
-        ]
-      }
-    },
-    {
-      "id": 19,
-      "nome": "DR. MILHÃO ",
-      "curso": "ODONTOLOGIA ",
-      "cardapio": {
-        "comidas": [
-          {
-            "nome": "ESFIRRA ",
-            "valor": 10
-          },
-          {
-            "nome": "BOLINHO DE CARNE SECA ",
-            "valor": 20
-          },
-          {
-            "nome": "LASANHA DE CARNE ",
-            "valor": 30
-          },
-          {
-            "nome": "CROQUETE DE MILHO ",
-            "valor": 20
-          },
-          {
-            "nome": "FONDUE ",
-            "valor": 20
-          },
-          {
-            "nome": "QUIRELA C/ PORCO P",
-            "valor": 25
-          },
-          {
-            "nome": "QUIRELA C/ PORCO M ",
-            "valor": 30
-          },
-          {
-            "nome": "QUIRELA C/ PORCO G ",
-            "valor": 35
-          }
-        ],
-        "bebidas": [
-          {
-            "nome": "CAPIRINHA DE LIMAO ",
-            "valor": 15
-          },
-          {
-            "nome": "CAIPIRINHA DE MARACUJA ",
-            "valor": 20
-          },
-          {
-            "nome": "CAIPIRINHA DE ABACAXI ",
-            "valor": 20
-          },
-          {
-            "nome": "CAIPIRINHA DE MORANGO ",
-            "valor": 20
-          },
-          {
-            "nome": "CAIPIRINHA DE UVA ",
-            "valor": 20
-          },
-          {
-            "nome": "COCA ZERO ",
-            "valor": 6
-          },
-          {
-            "nome": "COCA ",
-            "valor": 6
           },
           {
             "nome": "AGUA ",
             "valor": 5
           },
           {
-            "nome": "AGUA COM GAS ",
+            "nome": "CERVEJA LATA ",
             "valor": 5
           },
           {
-            "nome": "GUARANA ",
-            "valor": 6
+            "nome": "DRINK G",
+            "valor": 15
           },
           {
-            "nome": "CERVEJA LATA ",
-            "valor": 6
-          },
-          {
-            "nome": "CHOP PILSEN ",
-            "valor": 7
-          },
-          {
-            "nome": "CHOP TRIPLO MALTE ",
-            "valor": 8
-          },
-          {
-            "nome": "PEPSI",
-            "valor": 6
+            "nome": "DOSE COM ENERGETICO ",
+            "valor": 15
           }
         ]
       }
     },
     {
-      "id": 20,
-      "nome": "FISIOTERAPINGA",
-      "curso": "FISIOTERAPIA",
+      "id": 17,
+      "nome": "Terapia de Milhões",
+      "curso": "PSICOLOGIA",
       "cardapio": {
         "comidas": [
           {
-            "nome": "CALDO DE FRANGO COM MILHO",
+            "nome": "Fricassê (Acompanha arroz e batata palha)",
             "valor": 18
           },
           {
-            "nome": "CANJA DE MILHO ",
+            "nome": "Porção de Batata Simples",
+            "valor": 25
+          },
+          {
+            "nome": "Porção de Batata C/ Calabresa",
+            "valor": 35
+          },
+          {
+            "nome": "Porção de Frango a Passarinho",
+            "valor": 30
+          },
+          {
+            "nome": "Caldo de Abóbora ",
             "valor": 18
           },
           {
-            "nome": "PÃO COM LINGUIÇA",
-            "valor": 15
+            "nome": "Caldo de Carne",
+            "valor": 18
+          },
+          {
+            "nome": "Princípio do Prazer (Maçã Caramelizada)",
+            "valor": 12
           }
         ],
         "bebidas": [
           {
-            "nome": "MOSKOU MULE",
-            "valor": 30
+            "nome": "Água",
+            "valor": 5
           },
           {
-            "nome": "CAIPIRINHA SEM ÁLCOOL",
-            "valor": 20
+            "nome": "Água C/gás",
+            "valor": 5
           },
           {
-            "nome": "CAIPIRINHA COM ÁLCOOL",
+            "nome": "Refri lata",
+            "valor": 6
+          },
+          {
+            "nome": "Copão Universitario",
+            "valor": 18
+          },
+          {
+            "nome": "Caipirinha",
+            "valor": 18
+          },
+          {
+            "nome": "Caipiroska",
+            "valor": 22
+          },
+          {
+            "nome": "Batidinhas",
             "valor": 25
           },
           {
-            "nome": "SKOL LATA",
+            "nome": "Tequila Nem Freudendo (dose)",
+            "valor": 4
+          },
+          {
+            "nome": "Vodka Recalque (dose)",
+            "valor": 4
+          },
+          {
+            "nome": "Rum Complexo de Édipo (dose)",
+            "valor": 4
+          },
+          {
+            "nome": "Sublimação (dose Velho Barreiro)",
+            "valor": 4
+          },
+          {
+            "nome": "Drink Psicose ",
+            "valor": 27
+          },
+          {
+            "nome": "Cerveja Lata ",
             "valor": 6
-          },
-          {
-            "nome": "BRAHMA LATA",
-            "valor": 6
-          },
-          {
-            "nome": "ORIGINAL LATA",
-            "valor": 6
-          },
-          {
-            "nome": "COCA-COLA LATA",
-            "valor": 5
-          },
-          {
-            "nome": "FANTA LARANJA ",
-            "valor": 5
-          },
-          {
-            "nome": "GUARANÁ",
-            "valor": 5
-          },
-          {
-            "nome": "AGUÁ SEM GÁS",
-            "valor": 5
-          },
-          {
-            "nome": "ÁGUA COM GÁS",
-            "valor": 5
-          },
-          {
-            "nome": "CHOPP SEVERA PILSEN",
-            "valor": 7
-          },
-          {
-            "nome": "CORREIO ELEGANTE: BOM BOM E CARTINHA ",
-            "valor": 5
           }
         ]
       }
     },
     {
       "id": 21,
-      "nome": "PSICOTERAPINGA",
-      "curso": "PSICOLOGIA",
+      "nome": "BIOGRÃO",
+      "curso": "BIOMEDICINA ",
       "cardapio": {
         "comidas": [
           {
-            "nome": "POLENTA COM FRANGO ",
+            "nome": "Empadinha ",
+            "valor": 10
+          },
+          {
+            "nome": "Crepe aberto ",
+            "valor": 17
+          },
+          {
+            "nome": "Pão com linguiça ",
             "valor": 15
           },
           {
-            "nome": "CALDOS VARIADOS ",
+            "nome": "Brigadeiro alcoólico ",
+            "valor": 5
+          },
+          {
+            "nome": "Brigadeiro normal ",
+            "valor": 5
+          },
+          {
+            "nome": "Caixinha de brigadeiro com 4",
             "valor": 15
-          },
-          {
-            "nome": "BOLO DE CHOCOLATE",
-            "valor": 10
-          },
-          {
-            "nome": "BOLO DE CENOURA ",
-            "valor": 10
-          },
-          {
-            "nome": "SALGADOS VARIADOS",
-            "valor": 10
           }
         ],
         "bebidas": [
           {
-            "nome": "CAIPIRINHA ",
-            "valor": 15
+            "nome": "Água normal ",
+            "valor": 3
           },
           {
-            "nome": "CAIPIROSKA ",
-            "valor": 20
+            "nome": "Água com gás ",
+            "valor": 4
           },
           {
-            "nome": "SKOL ",
-            "valor": 6
+            "nome": "Suco natural ",
+            "valor": 10
           },
           {
-            "nome": "COCA-COLA ",
+            "nome": "Refrigerante ",
+            "valor": 4
+          },
+          {
+            "nome": "Copão de vodka ",
+            "valor": 18
+          },
+          {
+            "nome": "Shots ",
             "valor": 5
           },
           {
-            "nome": "BRAHNA",
-            "valor": 6
+            "nome": "Chopp normal",
+            "valor": 10
           },
           {
-            "nome": "GUARANA",
-            "valor": 5
-          },
-          {
-            "nome": "AGUA COM GÁS ",
-            "valor": 6
-          },
-          {
-            "nome": "AGUA SEM  GÁS ",
-            "valor": 5
-          },
-          {
-            "nome": "QUENTÃO",
-            "valor": 25
-          },
-          {
-            "nome": "BATIDAS VARIADAS",
-            "valor": 30
-          },
-          {
-            "nome": "COPÃO ",
+            "nome": "Chopp cozumel ",
             "valor": 12
           },
           {
-            "nome": "PSICOTERAPINGA",
+            "nome": "Pinã colada ",
+            "valor": 20
+          }
+        ]
+      }
+    },
+    {
+      "id": 22,
+      "nome": " MilhoSoft",
+      "curso": "ANÁLISE E DESENVOLVIMENTO DE SISTEMAS",
+      "cardapio": {
+        "comidas": [
+          {
+            "nome": "cachorro quente simples",
+            "valor": 15
+          },
+          {
+            "nome": "cachorro quente com queijo",
+            "valor": 17.0
+          },
+          {
+            "nome": "cachorro quente com bacon",
+            "valor": 17
+          },
+          {
+            "nome": "cachorro quente com queijo e bacon",
+            "valor": 19
+          },
+          {
+            "nome": "tiras de bacon com creme de milho",
+            "valor": 12
+          }
+        ],
+        "bebidas": [
+          {
+            "nome": "ÁGUA",
+            "valor": 5
+          },
+          {
+            "nome": "ÁGUA C/GÁS",
+            "valor": 5
+          },
+          {
+            "nome": "REFRI LATA COCA E GUARANÁ ",
+            "valor": 5
+          },
+          {
+            "nome": "COMBO CHOPP SEVERA",
+            "valor": 25
+          },
+          {
+            "nome": "CHOPP SEVERA (COPO 300ML)",
+            "valor": 10
+          }
+        ]
+      }
+    },
+    {
+      "id": 23,
+      "nome": "ESPIGA BYTE",
+      "curso": "ANÁLISE E DESENVOLVIMENTO DE SISTEMAS",
+      "cardapio": {
+        "comidas": [
+          {
+            "nome": "Pastel carne/ frango catupiry ",
+            "valor": 11
+          },
+          {
+            "nome": "Pastel Nutella  2 unidades pequenas",
+            "valor": 12
+          }
+        ],
+        "bebidas": [
+          {
+            "nome": "Chopp",
+            "valor": 10
+          },
+          {
+            "nome": "Agua/água com gas/ refrigerante",
+            "valor": 5
+          },
+          {
+            "nome": "Copao Universitário",
+            "valor": 15
+          },
+          {
+            "nome": "Shot mistérioso 3 unidades",
+            "valor": 15
+          },
+          {
+            "nome": "Capirinha cachaça limao/morango",
+            "valor": 15
+          },
+          {
+            "nome": "Capiroska",
+            "valor": 15
+          },
+          {
+            "nome": "Dose cachaça/vodka/tequila ",
+            "valor": 5
+          },
+          {
+            "nome": "Capeta",
             "valor": 20
           }
         ]
@@ -1504,204 +968,247 @@
     },
     {
       "id": 24,
-      "nome": "BARRACA SKOLIOSE",
-      "curso": "FISIOTERAPIA",
+      "nome": "Milhodontia",
+      "curso": "ODONTOLOGIA",
       "cardapio": {
         "comidas": [
           {
-            "nome": "Barca de petiscos P",
-            "valor": 55
+            "nome": "Espetinho  Simples ",
+            "valor": 14.99
           },
           {
-            "nome": "Barca de petiscos M",
-            "valor": 75
+            "nome": "Espetinho completo",
+            "valor": 24.99
           },
           {
-            "nome": "Macarrão na chapa com milho 300 ml",
-            "valor": 25
+            "nome": "pastel salgado",
+            "valor": 14.99
           },
           {
-            "nome": "Creme de milho pote",
-            "valor": 3
+            "nome": "pastel doce",
+            "valor": 14.99
           }
         ],
         "bebidas": [
           {
-            "nome": "Caipirinha de limao 300ml",
-            "valor": 15
+            "nome": "Água  s/ gás ",
+            "valor": 4.99
           },
           {
-            "nome": "Caipirinha de limão 500ml",
-            "valor": 25
+            "nome": "Água c/ gás ",
+            "valor": 4.99
           },
           {
-            "nome": "Caipirinha de maracujá 300ml",
-            "valor": 15
+            "nome": "Refrigerante",
+            "valor": 5.99
           },
           {
-            "nome": "caipirinha de maracujá 500ml",
-            "valor": 25
+            "nome": "Copão universitário ",
+            "valor": 9.99
           },
           {
-            "nome": "caipirinha de morango 300ml",
-            "valor": 15
+            "nome": "caipirinha de limão",
+            "valor": 14.99
           },
           {
-            "nome": "caipirinha de morango 500ml",
-            "valor": 25
-          },
-          {
-            "nome": "Chopp Severa 300ml",
-            "valor": 7
-          },
-          {
-            "nome": "Quentão 250ml",
-            "valor": 5
-          },
-          {
-            "nome": "Cerveja skol lata",
-            "valor": 5
-          },
-          {
-            "nome": "Cerveja brahma lata",
-            "valor": 5
-          },
-          {
-            "nome": "Dose de tequila",
-            "valor": 3
-          },
-          {
-            "nome": "Agua sem gás ",
-            "valor": 5
-          },
-          {
-            "nome": "Agua com gás",
-            "valor": 5
-          },
-          {
-            "nome": "Coca cola lata",
-            "valor": 5
-          },
-          {
-            "nome": "Guaraná antartica lata",
-            "valor": 5
+            "nome": "Chopp",
+            "valor": 9.99
           }
         ]
       }
     },
     {
-      "id": 25,
-      "nome": "MÉXICO MILHO",
-      "curso": "DIREITO",
+      "id": 27,
+      "nome": "BARRACA DR. MILHÃO ",
+      "curso": "ODONTOLóGIA ",
       "cardapio": {
         "comidas": [
           {
-            "nome": "TORTILHA DE MILHO COM CARNE LOUCA",
+            "nome": "Espetinho  Simples ",
             "valor": 15
           },
           {
-            "nome": "ESPETINHO COM MANDIOCA",
-            "valor": 10
+            "nome": "Espetinho completo",
+            "valor": 30
           },
           {
-            "nome": "CALDO (COPO)",
-            "valor": 10
-          },
-          {
-            "nome": "BEIJINHO DE MILHO",
-            "valor": 2
-          },
-          {
-            "nome": "ESPETINHO COMPLETO",
+            "nome": "Pastel ",
             "valor": 15
+          },
+          {
+            "nome": "Caldo  300 ml",
+            "valor": 10
+          },
+          {
+            "nome": "Caldo com torradinha 500 ml",
+            "valor": 15
+          },
+          {
+            "nome": "Torta fria ",
+            "valor": 10
+          },
+          {
+            "nome": "Torta P",
+            "valor": 8
+          },
+          {
+            "nome": "Torta G",
+            "valor": 15
+          },
+          {
+            "nome": "Bolo de ló c / cobertura ",
+            "valor": 8
+          },
+          {
+            "nome": "Bolo de ló s / cobertura ",
+            "valor": 6.6
           }
         ],
         "bebidas": [
           {
-            "nome": "CERVEJA SKOL",
+            "nome": "Água  s/ gás ",
             "valor": 5
           },
           {
-            "nome": "CERVEJA BRAHMA",
-            "valor": 5
+            "nome": "Água c/ gás ",
+            "valor": 5.5
           },
           {
-            "nome": "REFRIGERANTE",
-            "valor": 5
+            "nome": "Refrigerante",
+            "valor": 6
           },
           {
-            "nome": "ÁGUA SEM GÁS",
-            "valor": 5
+            "nome": "Copão universitário ",
+            "valor": 12
           },
           {
-            "nome": "CHOPP COLINA COPO",
-            "valor": 5
+            "nome": "Cerveja ",
+            "valor": 6
           },
           {
-            "nome": "SUCO PRATS LARANJA",
-            "valor": 10
-          },
-          {
-            "nome": "DRINK MÉDIO",
-            "valor": 10
-          },
-          {
-            "nome": "DRINK GRANDE ",
+            "nome": "Caipirinha de limão ",
             "valor": 15
           },
           {
-            "nome": "ENERGÉTICO",
-            "valor": 15
+            "nome": "Caipirinha de morango ",
+            "valor": 20
+          },
+          {
+            "nome": "Mojito",
+            "valor": 22
+          },
+          {
+            "nome": "Dose tequila",
+            "valor": 2
+          },
+          {
+            "nome": "Quentão ",
+            "valor": 10
           }
         ]
       }
     },
     {
       "id": 28,
-      "nome": "MILHARAL DO JÚRI",
-      "curso": "DIREITO",
+      "nome": "FISIOTERAPINGA",
+      "curso": "FISIOTERAPIA",
       "cardapio": {
         "comidas": [
           {
-            "nome": "ESPETINHO DE CARNE SIMPLES",
-            "valor": 10
+            "nome": "RISOTO DE MILHO",
+            "valor": 30
           },
           {
-            "nome": "ESPETINHO DE CARNE COM MANDIOCA",
-            "valor": 12
+            "nome": "CHORIPAN (PÃO COM LINGUIÇA)",
+            "valor": 15
           },
           {
-            "nome": "PASTEL DE CARNE",
-            "valor": 10
-          },
-          {
-            "nome": "PASTEL CREMOSO (carne, milho, queijo)",
-            "valor": 10
-          },
-          {
-            "nome": "PASTEL DE FRANGO",
-            "valor": 10
-          },
-          {
-            "nome": "BRIOCA (brigadeiro de milho de pipoca)",
+            "nome": "MOUSSE DE MILHO",
             "valor": 5
           }
         ],
         "bebidas": [
           {
-            "nome": "CERVEJA SKOL LATA",
-            "valor": 6
+            "nome": "AGUA",
+            "valor": 4
           },
           {
-            "nome": "CERVEJA BRAHMA LATA",
-            "valor": 6
+            "nome": "AGUA COM GAS",
+            "valor": 4
           },
           {
-            "nome": "REFRIGERANTE COCA COCA",
+            "nome": "REFRI LATA",
             "valor": 5
           },
           {
-            "nome": "REFRIGERANTE GUARANÁ",
+            "nome": "COPAO UNIVERSITARIO",
+            "valor": 10
+          },
+          {
+            "nome": "CAIPIRINHA",
+            "valor": 10
+          },
+          {
+            "nome": "CAIPIROSKA",
+            "valor": 12
+          },
+          {
+            "nome": "CERVEJA LATA HEINEKEN",
+            "valor": 8
+          },
+          {
+            "nome": "DOSE",
+            "valor": 2
+          },
+          {
+            "nome": "CHOOP BRAHMA 250 ML",
+            "valor": 10
+          },
+          {
+            "nome": "TENSPINGA",
+            "valor": 10
+          }
+        ]
+      }
+    },
+    {
+      "id": 29,
+      "nome": "ADMILHÕES",
+      "curso": "ADMINISTRAÇÃO",
+      "cardapio": {
+        "comidas": [
+          {
+            "nome": "PIZZA DE MILHO",
+            "valor": 10
+          },
+          {
+            "nome": "MILHO NA COSTELA",
+            "valor": 25
+          },
+          {
+            "nome": "ESPETINHO",
+            "valor": 10
+          },
+          {
+            "nome": "ESPETINHO COMPLETO",
+            "valor": 15
+          },
+          {
+            "nome": "CHURROS TRADICIONAL",
+            "valor": 10
+          },
+          {
+            "nome": "CHURROS GOURMET",
+            "valor": 15
+          },
+          {
+            "nome": "CHURROS ESPECIAL",
+            "valor": 20
+          }
+        ],
+        "bebidas": [
+          {
+            "nome": "ÁGUA SEM GÁS",
             "valor": 5
           },
           {
@@ -1709,134 +1216,91 @@
             "valor": 5
           },
           {
-            "nome": "AGUA SEM GÁS",
+            "nome": "REFRI LATA COCA E GUARANÁ ",
             "valor": 5
           },
           {
-            "nome": "CHOPP BIONDA PILSEN",
-            "valor": 7
-          },
-          {
-            "nome": "CHOPP BIONDA VINHO",
-            "valor": 8
-          }
-        ]
-      }
-    },
-    {
-      "id": 29,
-      "nome": "INTIMACÍON E THEMIS",
-      "curso": "DIREITO",
-      "cardapio": {
-        "comidas": [
-          {
-            "nome": "CREPE ABERTO",
-            "valor": 25
-          },
-          {
-            "nome": "CREPE NO PALITO",
+            "nome": "COPO UNIVERSITÁRIO",
             "valor": 15
           },
           {
-            "nome": "MACARRÃO (MONTE O SEU)",
-            "valor": 25
-          }
-        ],
-        "bebidas": [
-          {
-            "nome": "CERVEJA ",
-            "valor": 6
-          },
-          {
-            "nome": "ÁGUA",
-            "valor": 5
-          },
-          {
-            "nome": "REFRIGERANTE",
-            "valor": 5
-          },
-          {
-            "nome": "CHOPP",
+            "nome": "CHOPP BRAHMA (COPO 300ML)",
             "valor": 10
-          },
-          {
-            "nome": "DRINKS",
-            "valor": 20
-          },
-          {
-            "nome": "TEQUILA",
-            "valor": 5
-          },
-          {
-            "nome": "QUENTÃO",
-            "valor": 8
           }
         ]
       }
     },
     {
       "id": 30,
-      "nome": "Milho Nutrido",
-      "curso": "NUTRIçãO ",
+      "nome": "INTIMACIÓN",
+      "curso": "DIREITO",
       "cardapio": {
         "comidas": [
           {
-            "nome": "Caldo de kenga",
-            "valor": 12
+            "nome": "Quirera De Milho com Costelinha De Porco",
+            "valor": 22
           },
           {
-            "nome": "Torta cremosa de milho com frango",
-            "valor": 12
+            "nome": "Donut´s Com Brigadeiro De Milho e Cural",
+            "valor": 18
           },
           {
-            "nome": "Torta de milho com carne seca",
-            "valor": 15
+            "nome": " Donut´s com Brigadeiro De Milho",
+            "valor": 18
           },
           {
-            "nome": "Torta de brigadeiro de milho com merengue",
+            "nome": "Caldo de Kenga",
+            "valor": 10
+          },
+          {
+            "nome": "Brownie De Milho",
             "valor": 8
+          },
+          {
+            "nome": "Crepe Aberto ",
+            "valor": 25
+          },
+          {
+            "nome": "Crepe Fechado ",
+            "valor": 15
           }
         ],
         "bebidas": [
           {
-            "nome": "Cerveja ",
-            "valor": 6
-          },
-          {
-            "nome": "refrigerante ",
+            "nome": "Água  s/ gás ",
             "valor": 5
           },
           {
-            "nome": "agua ",
+            "nome": "Água c/ gás ",
             "valor": 5
           },
           {
-            "nome": "chopp",
-            "valor": 8
-          },
-          {
-            "nome": "Trio de chopp",
-            "valor": 15
-          },
-          {
-            "nome": "Dose ",
+            "nome": "Refrigerante",
             "valor": 5
           },
           {
-            "nome": "Seringa",
-            "valor": 5
+            "nome": "Copão universitário ",
+            "valor": 10
           },
           {
-            "nome": "Tabua de shot",
-            "valor": 12
-          },
-          {
-            "nome": "Copão de vodka",
-            "valor": 15
-          },
-          {
-            "nome": "Copão de whisky",
+            "nome": "Drink Orgasmo",
             "valor": 20
+          },
+          {
+            "nome": "Drink Ilha da Magia",
+            "valor": 20
+          },
+          {
+            "nome": "Drink El Fuego",
+            "valor": 20
+          },
+          {
+            "nome": "Drink Capeta",
+            "valor": 20
+          },
+          {
+            "nome": "Chopp",
+            "valor": 8
           }
         ]
       }
@@ -1845,137 +1309,35 @@
   "ticket": [
     {
       "id_barraca": 1,
-      "barraca": "BARRACA ADMILHÕES",
-      "descricao": "3 PAMONHAS",
-      "valor": 40
-    },
-    {
-      "id_barraca": 2,
-      "barraca": "ARQTEMCHOPP",
-      "descricao": "2 CHOPPS ",
-      "valor": 15
-    },
-    {
-      "id_barraca": 5,
-      "barraca": "AGROMAFIA",
-      "descricao": "3 CHOPPS ",
-      "valor": 30
-    },
-    {
-      "id_barraca": 7,
-      "barraca": "Butecodontia",
-      "descricao": "Combo: 3 Chops (300ml)",
+      "barraca": "MILHARAL DO JÚRI",
+      "descricao": "2 CHOPPS leve 3",
       "valor": 20
     },
     {
       "id_barraca": 8,
-      "barraca": "CAPETABILIDADE ",
-      "descricao": "COMPRE 1 CAPETA, E LEVE 2 POR R$35,00",
-      "valor": 5
-    },
-    {
-      "id_barraca": 9,
-      "barraca": "KING'S MILHO",
-      "descricao": "COMBO 03 CHOPPS 500ML",
-      "valor": 40
-    },
-    {
-      "id_barraca": 10,
-      "barraca": "IMPÉRIO GRÃO",
-      "descricao": "EMPADÃO DE FRANGO/TORTA BOMBOCADA DE COCO + REFRIGERANTE",
-      "valor": 20
-    },
-    {
-      "id_barraca": 13,
-      "barraca": "BARRACA HEMOGRÃO",
-      "descricao": "COMPRE 2 BRIGADEIROS",
-      "valor": 5
-    },
-
-    {
-      "id_barraca": 17,
-      "barraca": "MILHOGLOBULINA",
-      "descricao": "TICKET FASIPE ME FALIU (2 copos de vodka)",
-      "valor": 15
-    },
-    {
-      "id_barraca": 18,
-      "barraca": "MILHOSOFT",
-      "descricao": "1 CHOPP + PÃO COM LINGUIÇA",
-      "valor": 20
-    },
-
-    {
-      "id_barraca": 20,
-      "barraca": "FISIOTERAPINGA",
-      "descricao": "CERVEJAS/PROMOÇÃO 3 POR 15",
-      "valor": 15
-    },
-    {
-      "id_barraca": 21,
-      "barraca": "PSICOTERAPINGA",
-      "descricao": "COMBO CAIPIRINHA (3 UNIDADE)",
+      "barraca": " CAPETABILIDADE",
+      "descricao": "COMPRE 1 CAPETA E LEVE 2",
       "valor": 35
     },
     {
-      "id_barraca": 24,
-      "barraca": "BARRACA SKOLIOSE",
-      "descricao": "Barca de petiscos M + 2 refrigerantes lata",
-      "valor": 80
-    },
-    {
-      "id_barraca": 28,
-      "barraca": "MILHARAL DO JÚRI",
-      "descricao": "CHOPP BIONDA 3 POR",
-      "valor": 20
-    },
-    {
-      "id_barraca": 29,
-      "barraca": "INTIMACÍON E THEMIS",
-      "descricao": "3 DRINKS",
-      "valor": 50
+      "id_barraca": 2,
+      "barraca": " ARQTEMCHOPP",
+      "descricao": "2 CHOPPS POR 15",
+      "valor": 15
     },
     {
       "id_barraca": 30,
-      "barraca": "Milho Nutrido",
-      "descricao": "Trio de chopp",
-      "valor": 15
+      "barraca": "INTIMACIÓN",
+      "descricao": "5 cerveja original por 20 reais",
+      "valor": 20
     }
   ],
   "cardapio": [
     {
-      "nome": "ALGODÃO DOCE",
+      "nome": "BACON",
       "barracas": [
         {
-          "id_barraca": 3
-        }
-      ]
-    },
-    {
-      "nome": "BOLO",
-      "barracas": [
-        {
-          "id_barraca": 7
-        },
-        {
-          "id_barraca": 10
-        },
-        {
-          "id_barraca": 14
-        },
-        {
-          "id_barraca": 21
-        },
-        {
-          "id_barraca": 30
-        }
-      ]
-    },
-    {
-      "nome": "CACHORRO QUENTE",
-      "barracas": [
-        {
-          "id_barraca": 3
+          "id_barraca": 22
         }
       ]
     },
@@ -1983,25 +1345,27 @@
       "nome": "CALDO",
       "barracas": [
         {
-          "id_barraca": 11
+          "id_barraca": 1
         },
         {
-          "id_barraca": 13
+          "id_barraca": 5
         },
         {
-          "id_barraca": 14
+          "id_barraca": 15
         },
         {
-          "id_barraca": 20
+          "id_barraca": 17
         },
         {
-          "id_barraca": 21
-        },
+          "id_barraca": 27
+        }
+      ]
+    },
+    {
+      "nome": "CANJICA",
+      "barracas": [
         {
-          "id_barraca": 25
-        },
-        {
-          "id_barraca": 30
+          "id_barraca": 7
         }
       ]
     },
@@ -2009,18 +1373,7 @@
       "nome": "CHURROS",
       "barracas": [
         {
-          "id_barraca": 1
-        },
-        {
           "id_barraca": 2
-        }
-      ]
-    },
-    {
-      "nome": "CREPE",
-      "barracas": [
-        {
-          "id_barraca": 11
         },
         {
           "id_barraca": 29
@@ -2028,21 +1381,21 @@
       ]
     },
     {
-      "nome": "CURAL",
+      "nome": "CONE RECHEADO",
       "barracas": [
         {
-          "id_barraca": 5
+          "id_barraca": 11
+        },
+        {
+          "id_barraca": 15
         }
       ]
     },
     {
-      "nome": "CUSCUZ",
+      "nome": "CREPE",
       "barracas": [
         {
-          "id_barraca": 5
-        },
-        {
-          "id_barraca": 14
+          "id_barraca": 30
         }
       ]
     },
@@ -2050,36 +1403,22 @@
       "nome": "DOCES",
       "barracas": [
         {
-          "id_barraca": 13
+          "id_barraca": 1
         },
         {
-          "id_barraca": 14
-        },
-        {
-          "id_barraca": 15
-        },
-        {
-          "id_barraca": 16
+          "id_barraca": 2
         },
         {
           "id_barraca": 17
         },
         {
-          "id_barraca": 19
-        },
-        {
-          "id_barraca": 25
+          "id_barraca": 21
         },
         {
           "id_barraca": 28
-        }
-      ]
-    },
-    {
-      "nome": "EMPADÃO",
-      "barracas": [
+        },
         {
-          "id_barraca": 10
+          "id_barraca": 30
         }
       ]
     },
@@ -2093,44 +1432,33 @@
           "id_barraca": 2
         },
         {
-          "id_barraca": 3
+          "id_barraca": 7
         },
         {
           "id_barraca": 11
         },
         {
-          "id_barraca": 25
+          "id_barraca": 16
         },
         {
-          "id_barraca": 28
+          "id_barraca": 21
+        },
+        {
+          "id_barraca": 24
+        },
+        {
+          "id_barraca": 27
+        },
+        {
+          "id_barraca": 29
         }
       ]
     },
     {
-      "nome": "FRICASSÊ",
+      "nome": "LANCHES",
       "barracas": [
-        {
-          "id_barraca": 7
-        },
-        {
-          "id_barraca": 17
-        }
-      ]
-    },
-    {
-      "nome": "LANCHE",
-      "barracas": [
-        {
-          "id_barraca": 7
-        },
         {
           "id_barraca": 10
-        },
-        {
-          "id_barraca": 13
-        },
-        {
-          "id_barraca": 14
         },
         {
           "id_barraca": 15
@@ -2139,30 +1467,27 @@
           "id_barraca": 16
         },
         {
-          "id_barraca": 17
-        },
-        {
-          "id_barraca": 18
-        },
-        {
-          "id_barraca": 19
-        },
-        {
           "id_barraca": 21
         },
         {
-          "id_barraca": 24
+          "id_barraca": 22
+        },
+        {
+          "id_barraca": 27
+        },
+        {
+          "id_barraca": 28
+        },
+        {
+          "id_barraca": 29
         }
       ]
     },
     {
-      "nome": "MACARRÃO",
+      "nome": "MIILHO",
       "barracas": [
         {
-          "id_barraca": 24
-        },
-        {
-          "id_barraca": 29
+          "id_barraca": 2
         }
       ]
     },
@@ -2174,14 +1499,12 @@
         },
         {
           "id_barraca": 2
-        }
-      ]
-    },
-    {
-      "nome": "NACHOS",
-      "barracas": [
+        },
         {
-          "id_barraca": 11
+          "id_barraca": 5
+        },
+        {
+          "id_barraca": 29
         }
       ]
     },
@@ -2200,24 +1523,40 @@
       "nome": "PASTEL",
       "barracas": [
         {
-          "id_barraca": 13
+          "id_barraca": 23
         },
         {
-          "id_barraca": 16
+          "id_barraca": 24
         },
         {
-          "id_barraca": 28
+          "id_barraca": 27
         }
       ]
     },
     {
-      "nome": "POLENTA",
+      "nome": "PINHÃO",
       "barracas": [
         {
-          "id_barraca": 8
+          "id_barraca": 10
+        }
+      ]
+    },
+    {
+      "nome": "PIPOCA",
+      "barracas": [
+        {
+          "id_barraca": 4
         },
         {
-          "id_barraca": 21
+          "id_barraca": 11
+        }
+      ]
+    },
+    {
+      "nome": "PORCO NA QUIRERA",
+      "barracas": [
+        {
+          "id_barraca": 30
         }
       ]
     },
@@ -2225,22 +1564,10 @@
       "nome": "PORÇÃO",
       "barracas": [
         {
-          "id_barraca": 7
-        },
-        {
-          "id_barraca": 9
-        },
-        {
-          "id_barraca": 15
+          "id_barraca": 16
         },
         {
           "id_barraca": 17
-        },
-        {
-          "id_barraca": 19
-        },
-        {
-          "id_barraca": 24
         }
       ]
     },
@@ -2248,26 +1575,33 @@
       "nome": "PUDIM",
       "barracas": [
         {
-          "id_barraca": 7
-        }
-      ]
-    },
-    {
-      "nome": "PÃO DE MILHO",
-      "barracas": [
-        {
-          "id_barraca": 5
+          "id_barraca": 1
         },
         {
-          "id_barraca": 20
+          "id_barraca": 4
         }
       ]
     },
     {
-      "nome": "QUIRELA",
+      "nome": "PÃES E BOLOS",
       "barracas": [
         {
-          "id_barraca": 19
+          "id_barraca": 4
+        },
+        {
+          "id_barraca": 10
+        },
+        {
+          "id_barraca": 11
+        },
+        {
+          "id_barraca": 15
+        },
+        {
+          "id_barraca": 27
+        },
+        {
+          "id_barraca": 30
         }
       ]
     },
@@ -2275,23 +1609,10 @@
       "nome": "RISOTO",
       "barracas": [
         {
-          "id_barraca": 9
-        }
-      ]
-    },
-    {
-      "nome": "TACOS",
-      "barracas": [
+          "id_barraca": 8
+        },
         {
-          "id_barraca": 11
-        }
-      ]
-    },
-    {
-      "nome": "TORTILHA",
-      "barracas": [
-        {
-          "id_barraca": 25
+          "id_barraca": 28
         }
       ]
     }

@@ -24,10 +24,12 @@ export const Title = styled.Text`
   font-family: 'Archivo_700Bold_Italic';
   font-size: 18px;
   color: #f7fff7;
+  text-transform: capitalize;
 `
 
 export const Subtitle = styled.Text`
   font-family: 'Archivo_400Regular_Italic';
   font-size: 18px;
   color: #d9d9d9;
+  text-transform: capitalize;
 `

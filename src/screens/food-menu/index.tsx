@@ -6,7 +6,7 @@ import FoodMenuItem from '../../components/FoodMenuItem'
 
 import { cardapio } from '../../../assets/barracks.json'
 
-export default function FoodMenu({ navigation }) {
+export default function FoodMenu({ navigation }: any) {
   const [foodList, setFoodList] = React.useState(cardapio)
 
   const handleSearch = (value: string) => {

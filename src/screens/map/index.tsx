@@ -9,7 +9,7 @@ import { Animated, Dimensions, Image, View } from 'react-native'
 
 import { ReactNativeZoomableView } from '@openspacelabs/react-native-zoomable-view'
 
-export default function Map({ route, navigation }) {
+export default function Map({ navigation }: any) {
   const backAction = () => {
     navigation.navigate('Home')
     return true

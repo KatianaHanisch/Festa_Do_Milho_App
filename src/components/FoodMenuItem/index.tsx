@@ -1,3 +1,5 @@
+import React from 'react'
+
 import { TouchableHighlight } from 'react-native-gesture-handler'
 import { LinearGradient } from 'expo-linear-gradient'
 
@@ -20,7 +22,7 @@ interface FoodBarracksProps {
 }
 
 export default function FoodMenuItem({ food, navigation }: FoodMenuItemProps) {
-  let barracas = []
+  let barracas: number[] = []
 
   food.barracas.map((barrack) => barracas.push(barrack.id_barraca))
 

@@ -7,9 +7,9 @@ import {
   Menu,
   MenuButton
 } from './components'
-import { Linking, TouchableHighlight, View } from 'react-native'
+import { TouchableHighlight } from 'react-native'
 
-export default function Home({ navigation }) {
+export default function Home({ navigation }: any) {
   return (
     <Container>
       <Image source={require('../../../assets/logo.png')} />

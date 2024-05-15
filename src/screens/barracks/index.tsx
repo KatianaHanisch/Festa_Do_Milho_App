@@ -11,8 +11,28 @@ interface BarracksScreenProps {
   navigation: any
 }
 
+interface ComidaProps {
+  nome: string
+  valor: number
+}
+
+interface BebidaProps {
+  nome: string
+  valor: number
+}
+
+interface BarrackProps {
+  id: number
+  nome: string
+  curso: string
+  cardapio: {
+    comidas: ComidaProps[]
+    bebidas: BebidaProps[]
+  }
+}
+
 export default function Barracks({ route, navigation }: BarracksScreenProps) {
-  const [barracks, setBarracks] = React.useState([])
+  const [barracks, setBarracks] = React.useState<BarrackProps[]>([])
 
   navigation.addListener('focus', () => {
     if (route.params.props) {

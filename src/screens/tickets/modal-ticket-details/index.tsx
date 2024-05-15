@@ -13,10 +13,7 @@ import {
   Warning
 } from './components'
 import { FontAwesome5 as FA5 } from '@expo/vector-icons'
-import { TouchableHighlight } from 'react-native-gesture-handler'
-import { Text } from 'react-native'
 import AsyncStorage from '@react-native-async-storage/async-storage'
-import base64 from 'react-native-base64'
 
 interface ModalTicketDetailsProps {
   navigation: any
@@ -32,20 +29,31 @@ interface TicketDetailsType {
 }
 
 export default function ModalTicketDetails({
-  navigation,
   ticket,
   setModalTicketDetailsOpen
 }: ModalTicketDetailsProps) {
   const confirmTicketSelection = async () => {
-    const userPayload = JSON.parse(await AsyncStorage.getItem('@VOTE_PAYLOAD'))
+    const userPayloadString = await AsyncStorage.getItem('@VOTE_PAYLOAD')
+
+    let userPayload = {
+      id: '',
+      name: '',
+      phone: '',
+      student: false,
+      buildId: ''
+    }
+
+    if (userPayloadString !== null) {
+      userPayload = JSON.parse(userPayloadString)
+    } else {
+      console.log('Não há dados de usuário armazenados.')
+    }
 
     const now = new Date()
     const limitHourToClaimTicket = new Date(now.getTime() + 15 * 60000)
 
     const day = now.getDate()
     const month = now.getMonth() + 1
-
-    console.log(limitHourToClaimTicket.toLocaleTimeString())
 
     fetch(
       `https://festadomilho-d2984-default-rtdb.firebaseio.com/registros/${userPayload.id}/tickets.json?auth=bPJEhIfXgv1iJxaOwQHwQuWz0ct7VDTR7zEFR07w`,

@@ -1,7 +1,7 @@
-import { FontAwesome5 as FA5 } from '@expo/vector-icons'
+import React from 'react'
+
 import { Ionicons } from '@expo/vector-icons'
 import { useState } from 'react'
-// import { TouchableHighlight } from 'react-native-gesture-handler'
 
 import ModalAbout from './components/ModalAbout'
 
@@ -9,7 +9,6 @@ import { Container, Title, BarrackDetails, Button } from './components'
 
 interface HeaderProps {
   title: string
-  // setBarrackDetailsOpen: (value: boolean) => void
 }
 
 export default function Header({ title }: HeaderProps) {

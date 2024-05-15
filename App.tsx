@@ -1,6 +1,5 @@
 import * as React from 'react'
 import 'react-native-gesture-handler'
-// import { useFonts } from 'expo-font'
 import {
   useFonts,
   Poppins_700Bold_Italic,

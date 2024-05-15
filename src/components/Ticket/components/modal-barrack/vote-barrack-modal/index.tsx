@@ -70,8 +70,6 @@ export default function VoteBarrackModal({
 
   const [keyboardOpen, setKeyboardOpen] = React.useState(false)
 
-  const [deviceId, setDeviceId] = React.useState(null)
-
   React.useEffect(() => {
     const verifyIfUserAlreadyVote = async (): Promise<void> => {
       await AsyncStorage.removeItem('@VOTE_PAYLOAD')
@@ -137,7 +135,7 @@ export default function VoteBarrackModal({
     )
       .then((response) => response.json())
       .then(async (response) => {
-        let userId: string
+        let userId: string = ''
 
         const remodelResponse = Object.keys(response).map((key, index) => {
           /*   

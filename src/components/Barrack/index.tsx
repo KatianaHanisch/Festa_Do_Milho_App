@@ -63,22 +63,22 @@ export default function Barrack({ navigation, barrack }: BarrackProps) {
       break
     case 2:
       image = (
-        <Image source={require('../../../assets/barracks_images/2.jpeg')} />
+        <Image source={require('../../../assets/barracks_images/2.png')} />
       )
       break
     case 3:
       image = (
-        <Image source={require('../../../assets/barracks_images/3.jpeg')} />
+        <Image source={require('../../../assets/barracks_images/3.png')} />
       )
       break
-    // case 4:
-    //   image = (
-    //     <Image source={require('../../../assets/barracks_images/4.jpg')} />
-    //   )
-    //   break
+    case 4:
+      image = (
+        <Image source={require('../../../assets/barracks_images/4.png')} />
+      )
+      break
     case 5:
       image = (
-        <Image source={require('../../../assets/barracks_images/5.jpg')} />
+        <Image source={require('../../../assets/barracks_images/5.png')} />
       )
       break
     // case 6:
@@ -88,7 +88,7 @@ export default function Barrack({ navigation, barrack }: BarrackProps) {
     //   break
     case 7:
       image = (
-        <Image source={require('../../../assets/barracks_images/7.jpg')} />
+        <Image source={require('../../../assets/barracks_images/7.png')} />
       )
       break
     case 8:
@@ -96,14 +96,14 @@ export default function Barrack({ navigation, barrack }: BarrackProps) {
         <Image source={require('../../../assets/barracks_images/8.png')} />
       )
       break
-    case 9:
-      image = (
-        <Image source={require('../../../assets/barracks_images/9.jpg')} />
-      )
-      break
+    // case 9:
+    //   image = (
+    //     <Image source={require('../../../assets/barracks_images/9.jpg')} />
+    //   )
+    //   break
     case 10:
       image = (
-        <Image source={require('../../../assets/barracks_images/10.jpeg')} />
+        <Image source={require('../../../assets/barracks_images/10.png')} />
       )
       break
     case 11:
@@ -116,11 +116,11 @@ export default function Barrack({ navigation, barrack }: BarrackProps) {
     //     <Image source={require('../../../assets/barracks_images/12.png')} />
     //   )
     //   break
-    case 13:
-      image = (
-        <Image source={require('../../../assets/barracks_images/13.png')} />
-      )
-      break
+    // case 13:
+    //   image = (
+    //     <Image source={require('../../../assets/barracks_images/13.png')} />
+    //   )
+    //   break
     case 14:
       image = (
         <Image source={require('../../../assets/barracks_images/14.png')} />
@@ -128,7 +128,7 @@ export default function Barrack({ navigation, barrack }: BarrackProps) {
       break
     case 15:
       image = (
-        <Image source={require('../../../assets/barracks_images/15.jpg')} />
+        <Image source={require('../../../assets/barracks_images/15.png')} />
       )
       break
     case 16:
@@ -141,59 +141,59 @@ export default function Barrack({ navigation, barrack }: BarrackProps) {
         <Image source={require('../../../assets/barracks_images/17.png')} />
       )
       break
-    case 18:
-      image = (
-        <Image source={require('../../../assets/barracks_images/18.png')} />
-      )
-      break
-    case 19:
-      image = (
-        <Image source={require('../../../assets/barracks_images/19.jpg')} />
-      )
-      break
-    case 20:
-      image = (
-        <Image source={require('../../../assets/barracks_images/20.png')} />
-      )
-      break
+    // case 18:
+    //   image = (
+    //     <Image source={require('../../../assets/barracks_images/18.png')} />
+    //   )
+    //   break
+    // case 19:
+    //   image = (
+    //     <Image source={require('../../../assets/barracks_images/19.jpg')} />
+    //   )
+    //   break
+    // case 20:
+    //   image = (
+    //     <Image source={require('../../../assets/barracks_images/20.png')} />
+    //   )
+    //   break
     case 21:
       image = (
         <Image source={require('../../../assets/barracks_images/21.png')} />
       )
       break
-    // case 22:
-    //   image = (
-    //     <Image source={require('../../../assets/barracks_images/22.jpg')} />
-    //   )
-    //   break
-    // case 23:
-    //   image = (
-    //     <Image source={require('../../../assets/barracks_images/23.jpg')} />
-    //   )
-    //   break
+    case 22:
+      image = (
+        <Image source={require('../../../assets/barracks_images/22.png')} />
+      )
+      break
+    case 23:
+      image = (
+        <Image source={require('../../../assets/barracks_images/23.png')} />
+      )
+      break
     case 24:
       image = (
         <Image source={require('../../../assets/barracks_images/24.png')} />
       )
       break
-    case 25:
-      image = (
-        <Image source={require('../../../assets/barracks_images/25.png')} />
-      )
-      break
+    // case 25:
+    //   image = (
+    //     <Image source={require('../../../assets/barracks_images/25.png')} />
+    //   )
+    //   break
     // case 26:
     //   image = (
     //     <Image source={require('../../../assets/barracks_images/26.jpg')} />
     //   )
     //   break
-    // case 27:
-    //   image = (
-    //     <Image source={require('../../../assets/barracks_images/27.jpg')} />
-    //   )
-    //   break
+    case 27:
+      image = (
+        <Image source={require('../../../assets/barracks_images/27.png')} />
+      )
+      break
     case 28:
       image = (
-        <Image source={require('../../../assets/barracks_images/28.jpg')} />
+        <Image source={require('../../../assets/barracks_images/28.png')} />
       )
       break
     case 29:
@@ -203,7 +203,7 @@ export default function Barrack({ navigation, barrack }: BarrackProps) {
       break
     case 30:
       image = (
-        <Image source={require('../../../assets/barracks_images/30.jpeg')} />
+        <Image source={require('../../../assets/barracks_images/30.png')} />
       )
       break
 
