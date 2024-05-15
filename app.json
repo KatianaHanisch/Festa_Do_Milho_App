@@ -2,7 +2,7 @@
   "expo": {
     "name": "Festa do Milho",
     "slug": "festa-do-milho",
-    "version": "1.0.0",
+    "version": "4.0.0",
     "orientation": "portrait",
     "icon": "./assets/icon.png",
     "splash": {
@@ -24,7 +24,7 @@
         "backgroundColor": "#e5ebce"
       },
       "package": "com.fasipe.festadomilho16",
-      "versionCode": 3,
+      "versionCode": 4,
       "permissions": []
     },
     "web": {

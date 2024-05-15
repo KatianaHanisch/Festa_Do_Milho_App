@@ -22,14 +22,14 @@ export default function Map({ navigation }: any) {
       <StatusBar style="dark" backgroundColor="#e5ebce" />
 
       <ReactNativeZoomableView
-        maxZoom={1.5}
+        maxZoom={2.5}
         minZoom={1}
         zoomStep={0.5}
         initialZoom={1}
       >
         <Animated.Image
           style={{ width: '100%', height: '80%' }}
-          source={require('../../../assets/barracas.jpeg')}
+          source={require('../../../assets/barracas.png')}
         />
       </ReactNativeZoomableView>
     </Container>
