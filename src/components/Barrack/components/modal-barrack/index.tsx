@@ -24,7 +24,7 @@ import VoteBarrackModal from './vote-barrack-modal'
 interface ModalBarrackProps {
   navigation: any
   barrack: BarrackType
-  setBarrackDetailsOpen: (value: boolean) => void
+  handleCloseModalBarraca: () => void
 }
 
 interface BarrackType {
@@ -52,7 +52,7 @@ interface DrinkType {
 export default function ModalBarrack({
   navigation,
   barrack,
-  setBarrackDetailsOpen
+  handleCloseModalBarraca
 }: ModalBarrackProps) {
   const [voteBarrackModalOpen, setVoteBarrackModalOpen] = React.useState(false)
 
@@ -285,10 +285,7 @@ export default function ModalBarrack({
       <StatusBar style="dark" backgroundColor="#EFF1ED" />
 
       <Container>
-        <CloseIcon
-          onPress={() => setBarrackDetailsOpen(false)}
-          underlayColor="none"
-        >
+        <CloseIcon onPress={() => handleCloseModalBarraca()}>
           <FA5 name="times-circle" color="#484848" size={28} />
         </CloseIcon>
         <ContainerImage>{image}</ContainerImage>
@@ -343,20 +340,22 @@ export default function ModalBarrack({
         </Button>
       </VoteFooter>
 
-      <BarrackVoteModal
-        animationType="slide"
-        transparent={false}
-        visible={voteBarrackModalOpen}
-        onRequestClose={() => {
-          setVoteBarrackModalOpen(false)
-        }}
-      >
-        <VoteBarrackModal
-          navigation={navigation}
-          barrack={barrack}
-          setVoteBarrackModalOpen={setVoteBarrackModalOpen}
-        />
-      </BarrackVoteModal>
+      {voteBarrackModalOpen && (
+        <BarrackVoteModal
+          animationType="slide"
+          transparent={false}
+          visible={voteBarrackModalOpen}
+          onRequestClose={() => {
+            setVoteBarrackModalOpen(false)
+          }}
+        >
+          <VoteBarrackModal
+            navigation={navigation}
+            barrack={barrack}
+            setVoteBarrackModalOpen={setVoteBarrackModalOpen}
+          />
+        </BarrackVoteModal>
+      )}
     </OutsideContainer>
   )
 }

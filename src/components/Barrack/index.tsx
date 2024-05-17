@@ -218,6 +218,10 @@ export default function Barrack({ navigation, barrack }: BarrackProps) {
 
   BackHandler.addEventListener('hardwareBackPress', backAction)
 
+  const handleCloseModalBarraca = () => {
+    setBarrackDetailsOpen(false)
+  }
+
   return (
     <ContainerCardBarrack>
       <LinearGradient
@@ -258,7 +262,7 @@ export default function Barrack({ navigation, barrack }: BarrackProps) {
               <ModalBarrack
                 navigation={navigation}
                 barrack={barrack}
-                setBarrackDetailsOpen={setBarrackDetailsOpen}
+                handleCloseModalBarraca={handleCloseModalBarraca}
               />
             </BarrackDetails>
           </Container>

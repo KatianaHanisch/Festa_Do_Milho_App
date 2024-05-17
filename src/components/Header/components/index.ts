@@ -1,16 +1,25 @@
+import { Platform } from 'react-native'
 import styled from 'styled-components/native'
 
 export const Container = styled.View`
-  height: 40px;
   width: 100%;
 
   display: flex;
 
   flex-direction: row;
   justify-content: space-between;
-  align-items: center;
+  align-items: flex-end;
 
   margin-bottom: 20px;
+
+  ${Platform.OS === 'ios' ? 'height: 55px' : 'height: 45px'}
+`
+
+export const ContainerIcone = styled.View`
+  width: 50px;
+  height: 50px;
+  align-items: center;
+  justify-content: flex-end;
 `
 
 export const Title = styled.Text`
@@ -22,7 +31,6 @@ export const Title = styled.Text`
 `
 export const BarrackDetails = styled.Modal`
   margin: 20px;
-  background-color: red;
   border-radius: 20px;
   padding: 35px;
   align-items: center;

@@ -69,7 +69,7 @@ export default function VoteBarrackModal({
   const [name, setName] = React.useState('')
   const [phone, setPhone] = React.useState('')
   const [isStudent, setIsStudent] = React.useState(false)
-  const [buildId, setBuildId] = React.useState('')
+  const [buildId, setBuildId] = React.useState<string | null>('')
 
   const [formInvalid, setFormInvalid] = React.useState(false)
   const [phoneIncorrect, setPhoneIncorrect] = React.useState(false)
@@ -127,7 +127,7 @@ export default function VoteBarrackModal({
     }, 2000)
   }
 
-  function validPhone(phone) {
+  function validPhone(phone: string) {
     var regex = new RegExp('^\\([0-9]{2}\\)(9[0-9]{4}-[0-9]{4})$')
     return regex.test(phone)
   }
@@ -173,7 +173,7 @@ export default function VoteBarrackModal({
     )
       .then((response) => response.json())
       .then(async (response) => {
-        let userId: string
+        let userId: string = ''
 
         const remodelResponse = Object.keys(response).map((key, index) => {
           /*   

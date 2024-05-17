@@ -5,7 +5,13 @@ import { useState } from 'react'
 
 import ModalAbout from './components/ModalAbout'
 
-import { Container, Title, BarrackDetails, Button } from './components'
+import {
+  Container,
+  Title,
+  BarrackDetails,
+  Button,
+  ContainerIcone
+} from './components'
 
 interface HeaderProps {
   title: string
@@ -21,7 +27,13 @@ export default function Header({ title }: HeaderProps) {
         accessibilityRole="link"
         onPress={() => setBarrackDetailsOpen(true)}
       >
-        <Ionicons name="information-circle-outline" size={35} color="#313233" />
+        <ContainerIcone>
+          <Ionicons
+            name="information-circle-outline"
+            size={35}
+            color="#313233"
+          />
+        </ContainerIcone>
         <BarrackDetails
           animationType="slide"
           transparent={false}

@@ -1,3 +1,4 @@
+import { Platform } from 'react-native'
 import styled from 'styled-components/native'
 
 export const Container = styled.View`
@@ -9,15 +10,17 @@ export const Container = styled.View`
 export const CloseIcon = styled.TouchableHighlight`
   position: absolute;
   right: 10px;
-  top: 15px;
+  top: 55px;
   width: 50px;
-
+  height: 50px;
   align-items: flex-end;
+
+  ${Platform.OS === 'ios' ? ' top: 55px' : 'top: 15px'}
 `
 export const ContainerInterno = styled.View`
   width: 95%;
   height: 100%;
-  padding-top: 10px;
+  ${Platform.OS === 'ios' ? 'padding-top: 60px;' : 'padding-top: 15px'}
 `
 
 export const TextInitial = styled.Text`

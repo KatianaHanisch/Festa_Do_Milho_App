@@ -1,3 +1,4 @@
+import { Platform } from 'react-native'
 import styled from 'styled-components/native'
 
 export const Container = styled.ScrollView`
@@ -20,10 +21,13 @@ export const Image = styled.Image`
 
 export const CloseIcon = styled.TouchableHighlight`
   position: absolute;
-  right: 10px;
-  top: 0px;
+  right: 5px;
   width: 50px;
+  height: 40px;
   align-items: flex-end;
+  justify-content: center;
+
+  ${Platform.OS === 'ios' ? ' top: 35px' : ''}
 `
 
 export const Title = styled.Text`
@@ -32,7 +36,6 @@ export const Title = styled.Text`
   color: #393d3f;
   text-align: center;
   margin-bottom: 15px;
-  /* margin-top: -10px; */
   margin-top: 55px;
 `
 

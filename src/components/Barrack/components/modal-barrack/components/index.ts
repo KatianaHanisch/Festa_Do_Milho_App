@@ -1,5 +1,7 @@
 import styled from 'styled-components/native'
 
+import { Platform } from 'react-native'
+
 export const OutsideContainer = styled.View`
   flex: 1;
   display: flex;
@@ -28,13 +30,16 @@ export const Image = styled.Image`
   z-index: -1;
 `
 
-export const CloseIcon = styled.TouchableHighlight`
+export const CloseIcon = styled.TouchableOpacity`
   position: absolute;
-  right: 10px;
-  top: 0px;
+  right: 5px;
+
   width: 50px;
   height: 35px;
   align-items: flex-end;
+  justify-content: center;
+  z-index: 999;
+  ${Platform.OS === 'ios' ? ' top: 35px' : ''}
 `
 
 export const Title = styled.Text`
